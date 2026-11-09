@@ -6,7 +6,7 @@ Portofolio resmi **M. Reno Hidayat, S.Kom.** — Full Stack Software Engineer & 
 
 ---
 
-## 🚀 Fitur Unggulan
+## Fitur Unggulan
 
 - **Desain Interaktif & Sinematik**: Animasi halus bertenaga **Framer Motion**, **GSAP**, dan **Lenis Smooth Scroll**.
 - **Unified Certificate Modal**: Tampilan interaktif untuk melihat sertifikat resmi (IBM SkillsBuild, ASEAN Foundation, Google Cloud, Kominfo) dengan filter kategori tab, navigasi cepat, dan verifikasi Credly.
@@ -20,7 +20,7 @@ Portofolio resmi **M. Reno Hidayat, S.Kom.** — Full Stack Software Engineer & 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend Core**: React 18, TypeScript, Vite
 - **Styling**: Tailwind CSS, PostCSS
@@ -30,7 +30,7 @@ Portofolio resmi **M. Reno Hidayat, S.Kom.** — Full Stack Software Engineer & 
 
 ---
 
-## 💻 Menjalankan di Lokal
+## Menjalankan di Lokal
 
 ### Prasyarat
 - Node.js 18+ atau 20+
