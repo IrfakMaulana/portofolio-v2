@@ -1,0 +1,7 @@
+{
+  "$schema": "https://agenticresourcediscovery.org/spec/v1/schema.json",
+  "name": "M. Reno Hidayat Portfolio",
+  "description": "Portfolio of M. Reno Hidayat, Full Stack Engineer & Informatics Graduate",
+  "url": "https://renohidayat.web.app",
+  "capabilities": []
+}

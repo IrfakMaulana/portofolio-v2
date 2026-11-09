@@ -1,0 +1,13 @@
+# M. Reno Hidayat Portfolio
+
+> Full Stack Engineer & Informatics Graduate specializing in Web, Mobile, and Backend development.
+
+## Site Overview
+This website showcases the engineering portfolio, scientific research, and professional projects of M. Reno Hidayat.
+
+## Key Links
+- [Home](https://renohidayat.web.app/): Main landing page with interactive 3D hero and showcase
+- [About](https://renohidayat.web.app/about): Background, competencies, and engineering journey
+- [Projects](https://renohidayat.web.app/projects): List of production web apps, mobile apps, and systems
+- [Summary](https://renohidayat.web.app/summary): Career timeline, research publications, and credentials
+- [Contact](https://renohidayat.web.app/contact): Get in touch via email or professional networks

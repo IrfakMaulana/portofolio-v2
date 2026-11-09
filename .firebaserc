@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "renohiday"
+  },
+  "targets": {
+    "renohiday": {
+      "hosting": {
+        "renohidayat": [
+          "renohidayat"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
