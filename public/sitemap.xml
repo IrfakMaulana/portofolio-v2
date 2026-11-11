@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://renohidayat.web.app/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -41,10 +41,30 @@
       <image:title>M. Reno Hidayat, S.Kom. — Selempang Wisuda</image:title>
       <image:caption>Foto selempang wisuda bertuliskan M. Reno Hidayat, S.Kom.</image:caption>
     </image:image>
+    <image:image>
+      <image:loc>https://renohidayat.web.app/m-reno-hidayat-selempang-belakang.jpg</image:loc>
+      <image:title>M. Reno Hidayat, S.Kom. — Selempang dari Belakang</image:title>
+      <image:caption>Foto M. Reno Hidayat, S.Kom. dari belakang dengan selempang wisuda.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://renohidayat.web.app/m-reno-hidayat-wisuda-fkip-unsap.jpg</image:loc>
+      <image:title>M. Reno Hidayat — Wisuda FKIP UNSAP</image:title>
+      <image:caption>Foto M. Reno Hidayat, S.Kom. berdiri di depan banner wisuda FKIP Universitas Sebelas April.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://renohidayat.web.app/m-reno-hidayat-duduk-wisuda.jpg</image:loc>
+      <image:title>M. Reno Hidayat — Momen Wisuda</image:title>
+      <image:caption>Foto candid M. Reno Hidayat, S.Kom. duduk dengan selempang dan berkas wisuda.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://renohidayat.web.app/m-reno-hidayat-almamater-hijau-unsap.jpg</image:loc>
+      <image:title>M. Reno Hidayat — Almamater Hijau UNSAP</image:title>
+      <image:caption>Foto M. Reno Hidayat, S.Kom. mengenakan jas almamater hijau Universitas Sebelas April dengan pose silang tangan.</image:caption>
+    </image:image>
   </url>
   <url>
     <loc>https://renohidayat.web.app/about</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -65,7 +85,7 @@
   </url>
   <url>
     <loc>https://renohidayat.web.app/summary</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>

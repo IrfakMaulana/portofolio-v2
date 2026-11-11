@@ -42,8 +42,8 @@ const Description = () => {
       <div className="relative z-10 w-full lg:max-w-[55%] xl:max-w-[58%]">
         <h1 className="MENU-CHANGE-SCALE-125 font-display text-5xl font-semibold text-secondary lg:text-7xl">{t('summary_title')}</h1>
         <div className="mt-8 flex flex-col md:mt-12">
-          <h2 className="MENU-CHANGE-Y-100 font-poppins text-5xl font-semibold text-white lg:text-8xl">M. Reno Hidayat</h2>
-          <p className="MENU-CHANGE-Y-100 mt-4 font-poppins text-2xl text-secondary lg:text-3xl">{t('summary_role_line')}</p>
+          <h2 className="MENU-CHANGE-Y-100 max-w-[65%] font-poppins text-5xl font-semibold text-white lg:max-w-none lg:text-8xl">M. Reno Hidayat</h2>
+          <p className="MENU-CHANGE-Y-100 mt-4 max-w-[70%] font-poppins text-2xl text-secondary lg:max-w-none lg:text-3xl">{t('summary_role_line')}</p>
           <p className="MENU-CHANGE-Y-200 mt-10 text-justify font-poppins text-lg text-secondary lg:text-left lg:text-xl">
             {lang === 'id' ? (
               <>
