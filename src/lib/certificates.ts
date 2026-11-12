@@ -52,16 +52,44 @@ export const CERTIFICATE_GROUPS: {
   label: { id: string; en: string }
   count: number
 }[] = [
-  { id: 'all', label: { id: 'Semua Sertifikat', en: 'All Certificates' }, count: 11 },
-  { id: 'ibm', label: { id: 'IBM SkillsBuild', en: 'IBM SkillsBuild' }, count: 1 },
-  { id: 'asean', label: { id: 'ASEAN Foundation', en: 'ASEAN Foundation' }, count: 7 },
-  { id: 'vibe-coding', label: { id: 'Google Developers', en: 'Google Developers' }, count: 1 },
-  { id: 'google-cloud', label: { id: 'Google Cloud', en: 'Google Cloud' }, count: 1 },
-  { id: 'literasi-digital', label: { id: 'Kemenkominfo RI', en: 'Kemenkominfo RI' }, count: 1 }
+  { id: 'all', label: { id: 'Semua Sertifikat', en: 'All Certificates' }, count: 2 },
+  { id: 'ibm', label: { id: 'Programming Fundamentals', en: 'Programming Fundamentals' }, count: 1 },
+  { id: 'asean', label: { id: 'TOEFL', en: 'TOEFL' }, count: 1 }
 ]
 
 export const ALL_CERTIFICATES: CertificateItem[] = [
-  // 1. IBM SkillsBuild
+  {
+    id: 'programming-fundamentals',
+    groupId: 'ibm',
+    groupName: { id: 'Programming Fundamentals', en: 'Programming Fundamentals' },
+    institution: 'Simplilearn',
+    title: 'Programming Fundamentals',
+    program: 'Programming Fundamentals',
+    date: { id: 'Tanggal belum tersedia', en: 'Date not available' },
+    description: { id: 'Sertifikat Programming Fundamentals dari Simplilearn.', en: 'Programming Fundamentals certificate from Simplilearn.' },
+    image: '',
+    tags: ['Programming', 'Fundamentals'],
+    badge: { id: 'Aset perlu disiapkan', en: 'Asset needed' },
+    themeColor: '#FACC15'
+  },
+  {
+    id: 'toefl-royal-english',
+    groupId: 'asean',
+    groupName: { id: 'TOEFL', en: 'TOEFL' },
+    institution: 'Royal English',
+    title: 'TOEFL',
+    program: 'TOEFL Certificate',
+    date: { id: 'Tanggal belum tersedia', en: 'Date not available' },
+    description: { id: 'Sertifikat TOEFL dari Royal English.', en: 'TOEFL certificate from Royal English.' },
+    image: '',
+    tags: ['TOEFL', 'English'],
+    badge: { id: 'Aset perlu disiapkan', en: 'Asset needed' },
+    themeColor: '#0091F8'
+  }
+]
+
+/* Legacy certificate records are intentionally excluded from the active portfolio. */
+/* 1. IBM SkillsBuild
   {
     id: 'ibm-skillsbuild-web-dev',
     groupId: 'ibm',
@@ -126,8 +154,8 @@ export const ALL_CERTIFICATES: CertificateItem[] = [
     },
     tags: ['AI Readiness', 'LinkedIn', 'Generative AI', 'Future of Work'],
     badge: {
-      id: 'ASEAN Ahead · LinkedIn',
-      en: 'ASEAN Ahead · LinkedIn'
+      id: 'ASEAN Ahead Ã‚Â· LinkedIn',
+      en: 'ASEAN Ahead Ã‚Â· LinkedIn'
     },
     themeColor: '#F59E0B'
   },
@@ -376,7 +404,7 @@ export const ALL_CERTIFICATES: CertificateItem[] = [
     },
     institution: 'Google Cloud',
     title: 'Google Cloud Computing Foundations & Skill Badges',
-    program: 'Google Skills Boost (Gold League · 10.195 Poin)',
+    program: 'Google Skills Boost (Gold League Ã‚Â· 10.195 Poin)',
     partner: 'Google Cloud Training',
     date: {
       id: 'Juni 2025',
@@ -432,4 +460,4 @@ export const ALL_CERTIFICATES: CertificateItem[] = [
     themeColor: '#FBBC05'
   }
 ]
-
+] */

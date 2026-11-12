@@ -12,7 +12,7 @@ export const StackedImage = () => {
       transition={{ ease: easeDefault, duration: 0.8, delay: 0.3, opacity: { duration: 0.2 } }}
       className="relative flex w-[85%] max-w-[340px] items-center justify-center overflow-hidden rounded-2xl border border-white/20 bg-zinc-900/60 shadow-2xl"
     >
-      <motion.img src="/me.jpg" alt="M. Reno Hidayat" className="w-full aspect-[3/4] object-cover object-top" />
+      <motion.img src="/img/personal/full-badan.jpeg" alt="Muhammad Irfa' Maulana" className="aspect-[3/4] w-full object-cover object-top" />
     </motion.div>
   )
 }
@@ -39,7 +39,7 @@ export default function SectionHeadMobile() {
           <StackedImage />
           <SpeedScrollElement speed={-500} className="pointer-events-none z-[90]">
             <StaggerSlideElementAbout className=" MENU-CHANGE-Y-200 pointer-events-none font-display text-5xl font-semibold leading-[1] text-white md:text-8xl">
-              M. RENO HIDAYAT
+              MUHAMMAD IRFA' MAULANA
             </StaggerSlideElementAbout>
           </SpeedScrollElement>
         </div>

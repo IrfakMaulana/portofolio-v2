@@ -10,7 +10,7 @@ import useSpeedScrollElement from 'hooks/use-speed-scroll-element'
 import { easeDefault } from 'lib/utils'
 import { useTranslation } from 'lib/translations'
 import React, { useEffect } from 'react'
-import { GrGithub, GrInstagram, GrLinkedin } from 'react-icons/gr'
+import { GrGithub, GrLinkedin } from 'react-icons/gr'
 import { HiOutlineArrowRight } from 'react-icons/hi'
 import { MdEmail } from 'react-icons/md'
 import { Link, useLocation } from 'react-router-dom'
@@ -153,29 +153,17 @@ export default function Footer({ title, linkTitle, linkTo, colorMode }: FooterPr
             </div>
             <div className="flex flex-col items-start justify-between md:flex-row md:items-end">
               <div className="mb-10 flex flex-col gap-2 md:hidden">
-                <Link to="https://www.linkedin.com/in/renohidayat" target="_blank" className="flex items-end gap-2">
+                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-end gap-2">
                   <GrLinkedin className="mt-1 text-xl" style={{ color: colorMode !== 'light' ? light : dark }} />
-                  <span style={{ color: colorMode !== 'light' ? light : dark }} className="font-poppins font-light underline">
-                    LinkedIn
-                  </span>
-                </Link>
-                <Link to="https://github.com/Renohidayat" target="_blank" className="flex items-end gap-2">
-                  <GrGithub className="text-xl " style={{ color: colorMode !== 'light' ? light : dark }} />
-                  <span style={{ color: colorMode !== 'light' ? light : dark }} className="font-poppins font-light underline">
-                    Github
-                  </span>
-                </Link>
-                <Link to="https://www.instagram.com/renohidayt/" target="_blank" className="flex items-end gap-2">
-                  <GrInstagram className="text-xl " style={{ color: colorMode !== 'light' ? light : dark }} />
-                  <span style={{ color: colorMode !== 'light' ? light : dark }} className="font-poppins font-light underline">
-                    Instagram
-                  </span>
-                </Link>
-                <a href="mailto:hidayatreno085@gmail.com" className="flex items-end gap-2">
-                  <MdEmail className="text-xl " style={{ color: colorMode !== 'light' ? light : dark }} />
-                  <span style={{ color: colorMode !== 'light' ? light : dark }} className="font-poppins font-light underline">
-                    hidayatreno085@gmail.com
-                  </span>
+                  <span style={{ color: colorMode !== 'light' ? light : dark }} className="font-poppins font-light underline">LinkedIn</span>
+                </a>
+                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-end gap-2">
+                  <GrGithub className="text-xl" style={{ color: colorMode !== 'light' ? light : dark }} />
+                  <span style={{ color: colorMode !== 'light' ? light : dark }} className="font-poppins font-light underline">GitHub</span>
+                </a>
+                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-end gap-2">
+                  <MdEmail className="text-xl" style={{ color: colorMode !== 'light' ? light : dark }} />
+                  <span style={{ color: colorMode !== 'light' ? light : dark }} className="font-poppins font-light underline">Email</span>
                 </a>
               </div>
               <StaggerSlideElementMenu
@@ -184,17 +172,14 @@ export default function Footer({ title, linkTitle, linkTo, colorMode }: FooterPr
                 className="hidden w-fit origin-bottom items-baseline gap-x-10 px-3 pb-2 pt-3 md:flex"
                 tag="div"
               >
-                <Link to="https://www.linkedin.com/in/renohidayat" target="_blank" className="flex items-baseline" title="LinkedIn">
+                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-baseline" title="LinkedIn">
                   <GrLinkedin className="mt-1 text-xl" style={{ color: colorMode === 'light' ? light : dark }} />
-                </Link>
-                <Link to="https://github.com/Renohidayat" target="_blank" className="flex items-baseline" title="GitHub">
-                  <GrGithub className="text-xl " style={{ color: colorMode === 'light' ? light : dark }} />
-                </Link>
-                <Link to="https://www.instagram.com/renohidayt/" target="_blank" className="flex items-baseline" title="Instagram">
-                  <GrInstagram className="text-xl " style={{ color: colorMode === 'light' ? light : dark }} />
-                </Link>
-                <a href="mailto:hidayatreno085@gmail.com" className="flex items-baseline" title="Email">
-                  <MdEmail className="text-xl " style={{ color: colorMode === 'light' ? light : dark }} />
+                </a>
+                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-baseline" title="GitHub">
+                  <GrGithub className="text-xl" style={{ color: colorMode === 'light' ? light : dark }} />
+                </a>
+                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-baseline" title="Email">
+                  <MdEmail className="text-xl" style={{ color: colorMode === 'light' ? light : dark }} />
                 </a>
               </StaggerSlideElementMenu>
               <div
@@ -202,7 +187,7 @@ export default function Footer({ title, linkTitle, linkTo, colorMode }: FooterPr
                 style={{ color: colorMode !== 'light' ? light : dark }}
               >
                 <p className="m-0 opacity-80">
-                  © {new Date().getFullYear()} M. Reno Hidayat. All rights reserved.
+                  © {new Date().getFullYear()} Muhammad Irfa' Maulana. All rights reserved.
                 </p>
               </div>
             </div>

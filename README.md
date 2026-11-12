@@ -1,8 +1,47 @@
-# Portofolio M. Reno Hidayat, S.Kom.
+# Portfolio Muhammad Irfa' Maulana
 
-> **Live Website**: [renohidayat.web.app](https://renohidayat.web.app)
+> Brand: **IrfakMaulana**
 
-Portofolio resmi **M. Reno Hidayat, S.Kom.** — Full Stack Software Engineer & Lulusan Informatika Universitas Sebelas April. Menampilkan pengalaman profesional, proyek unggulan (Web, Mobile Flutter, Backend, AI/Machine Learning), riset ilmiah (ResearchGate), serta sertifikasi internasional (IBM SkillsBuild, ASEAN Foundation, Google Cloud, Kominfo).
+Portfolio pribadi **Muhammad Irfa' Maulana** — Software Engineer & IT Automation Developer dengan fokus pada Fullstack Web Development, business process automation, dan system integration.
+
+## About
+
+Saya membangun aplikasi web, backend systems, REST API, serta solusi otomasi menggunakan JavaScript, TypeScript, Node.js, Python, PHP, Laravel, Next.js, dan Excel VBA. Portfolio ini mendukung Bahasa Indonesia dan English.
+
+## Experience
+
+- CV Wahana Sejahtera Foods — IT Programmer
+- PT Sumber Wangi Masa — Fullstack Developer
+- PT Vipayment Digital Solution — Backend Developer (Internship)
+- YEZZPAY — Staff Customer Service (Part-time)
+- Freelance — Web Developer
+
+## Education
+
+- Universitas Darul 'Ulum Jombang — S1 Teknik Informatika, GPA 3.61
+- SMK Negeri 3 Jombang — Teknik Elektronika Industri, nilai rata-rata 83.42
+
+## Projects
+
+1. DokumentStudio
+2. WhatsApp Pre-Order Automation
+3. Excel VBA Automation
+4. WhatsApp Bot Autosender
+5. Platform E-commerce Sumber Wangi
+6. Sumberwangi HR App
+7. Coffee Shop Landing Page
+8. E-commerce Website
+9. Anime Metadata Website
+10. Game Top-up Website
+
+## Certificates
+
+- Programming Fundamentals — Simplilearn
+- TOEFL — Royal English
+
+## Tech Stack
+
+React, Next.js, Node.js, Laravel, PHP, JavaScript, TypeScript, Python, SQL, Firebase, Git, Excel VBA, Firebird, SQLite, Google Sheets API, WhatsApp Integration, Telegram Bot API, Gemini AI API, and Business Process Automation.
 
 ---
 

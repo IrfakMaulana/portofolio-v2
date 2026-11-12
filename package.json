@@ -1,11 +1,11 @@
 {
-  "name": "portofolio-reno",
-  "description": "Portfolio web M. Reno Hidayat",
+  "name": "portofolio-irfakmaulana",
+  "description": "Portfolio web Muhammad Irfa' Maulana",
   "version": "0.1.0",
   "private": true,
   "author": {
-    "name": "M. Reno Hidayat",
-    "url": "https://github.com/Renohidayat"
+    "name": "Muhammad Irfa' Maulana",
+    "url": "https://github.com/IrfakMaulana/portofolio-v2"
   },
   "engines": {
     "node": "24.x"

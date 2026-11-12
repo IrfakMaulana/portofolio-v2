@@ -1,13 +1,39 @@
-# M. Reno Hidayat Portfolio
+# Muhammad Irfa' Maulana Portfolio
 
-> Full Stack Engineer & Informatics Graduate specializing in Web, Mobile, and Backend development.
+> **IrfakMaulana** — Software Engineer & IT Automation Developer.
 
 ## Site Overview
-This website showcases the engineering portfolio, scientific research, and professional projects of M. Reno Hidayat.
+This portfolio presents the software engineering work, business process automation, system integration, education, and professional experience of Muhammad Irfa' Maulana.
 
-## Key Links
-- [Home](https://renohidayat.web.app/): Main landing page with interactive 3D hero and showcase
-- [About](https://renohidayat.web.app/about): Background, competencies, and engineering journey
-- [Projects](https://renohidayat.web.app/projects): List of production web apps, mobile apps, and systems
-- [Summary](https://renohidayat.web.app/summary): Career timeline, research publications, and credentials
-- [Contact](https://renohidayat.web.app/contact): Get in touch via email or professional networks
+## About
+Muhammad Irfa' Maulana focuses on fullstack web development, backend systems, REST APIs, database management, and automation solutions using JavaScript, TypeScript, Node.js, Python, PHP, Laravel, Next.js, Excel VBA, Firebird, SQLite, Google Sheets API, and Firebase.
+
+## Experience
+- CV Wahana Sejahtera Foods — IT Programmer
+- PT Sumber Wangi Masa — Fullstack Developer
+- PT Vipayment Digital Solution — Backend Developer (Internship)
+- YEZZPAY — Staff Customer Service (Part-time)
+- Freelance — Web Developer
+
+## Projects
+1. DokumentStudio
+2. WhatsApp Pre-Order Automation
+3. Excel VBA Automation
+4. WhatsApp Bot Autosender
+5. Platform E-commerce Sumber Wangi
+6. Sumberwangi HR App
+7. Coffee Shop Landing Page
+8. E-commerce Website
+9. Anime Metadata Website
+10. Game Top-up Website
+
+## Certificates
+- Programming Fundamentals — Simplilearn
+- TOEFL — Royal English
+
+## Languages
+- Bahasa Indonesia
+- English
+
+## Contact
+LinkedIn, GitHub, and email links will be added when final contact details are available. No deployment domain is defined yet.

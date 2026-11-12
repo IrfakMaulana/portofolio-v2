@@ -1,9 +1,7 @@
-import RhLogoWhite from 'assets/images/rh-logo-white.png'
 import Cursor from 'components/common/cursor'
-import WithCursorElement from 'components/common/with-cursor-element'
 import ClickToOpen from 'components/cursor-hover/click-to-open'
+import WithCursorElement from 'components/common/with-cursor-element'
 import EnglishHover from 'components/cursor-hover/english'
-import RenoHidayatHover from 'components/cursor-hover/renohidayat'
 import IndonesiaHover from 'components/cursor-hover/indonesia'
 import Magnet from 'components/effect/magnet'
 import CursorProvider from 'context/cursor'
@@ -32,9 +30,9 @@ const TopNav = () => {
 
   const nameCursor = {
     in: {
-      key: RenoHidayatHover.key,
-      type: RenoHidayatHover.type,
-      element: <RenoHidayatHover />
+      key: 'irfakmaulana',
+      type: 'hover',
+      element: <span className="font-spartan text-lg">IrfakMaulana</span>
     }
   }
 
@@ -81,14 +79,17 @@ const TopNav = () => {
         <CursorProvider>
           <Cursor />
           <WithCursorElement fallbackState={{ element: null }} state={{ element: nameCursor.in as any }}>
-            <Link to={{ pathname: '/', search: location.search }} aria-label="M. Reno Hidayat - Home">
+            <Link to={{ pathname: '/', search: location.search }} aria-label="Muhammad Irfa' Maulana - Home">
               <Magnet>
                 <div className="flex items-center">
-                  <img
-                    src={RhLogoWhite}
-                    alt="RH Monogram Logo"
-                    className="h-10 w-10 object-contain transition-transform duration-300 hover:scale-110 active:scale-95 md:h-12 md:w-12"
-                  />
+                  <div
+                    role="img"
+                    aria-label="IM monogram logo"
+                    className="flex h-10 w-10 items-center justify-center font-spartan text-xl font-bold text-secondary transition-transform duration-300 hover:scale-110 active:scale-95 md:h-12 md:w-12"
+                  >
+                    IM
+                  </div>
+                  <span className="sr-only">Muhammad Irfa' Maulana</span>
                 </div>
               </Magnet>
             </Link>

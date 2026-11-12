@@ -14,38 +14,11 @@ type TimelineItem = {
 }
 
 const items: TimelineItem[] = [
-  {
-    monogram: 'SP',
-    color: '#2E9E6C',
-    title: 'SIPENA (FEB UNSAP)',
-    role: 'System Analyst, System Architect & Lead Backend',
-    range: 'Jan 2026 - Present',
-    link: 'https://github.com/Renohidayat/feb-unsap-exam'
-  },
-  {
-    monogram: 'FU',
-    color: '#0091F8',
-    title: 'FEB UNSAP',
-    role: 'Independent Web Developer (Project-Based)',
-    range: 'Nov 2025 - May 2026',
-    link: 'https://feb.unsap.ac.id/'
-  },
-  {
-    monogram: 'DS',
-    color: '#F1592A',
-    title: 'Dapoer Sari Pohaci',
-    role: 'Web Developer (KKN Pengabdian Masyarakat)',
-    range: 'Jan 2026 - Feb 2026',
-    link: 'https://dapoer-saripohaci.web.app/'
-  },
-  {
-    monogram: 'IG',
-    color: '#E1306C',
-    title: 'KKN Desa Serang 2026',
-    role: 'Publikasi & Dokumentasi (PDD Lapangan)',
-    range: 'Jan 2026 - Feb 2026',
-    link: 'https://www.instagram.com/kkndesaserang2026.archive?utm_source=ig_web_button_share_sheet&exln=ZDNlZDc0MzIxNw=='
-  }
+  { monogram: 'WS', color: '#FACC15', title: 'CV Wahana Sejahtera Foods', role: 'IT Programmer', range: 'Oct 2026 - Present' },
+  { monogram: 'SW', color: '#0091F8', title: 'PT Sumber Wangi Masa', role: 'Fullstack Developer', range: 'Mar 2026 - May 2026' },
+  { monogram: 'VP', color: '#2E9E6C', title: 'PT Vipayment Digital Solution', role: 'Backend Developer (Internship)', range: 'May 2025 - Jul 2025' },
+  { monogram: 'YZ', color: '#A3195B', title: 'YEZZPAY', role: 'Staff Customer Service (Part-time)', range: 'Apr 2025 - Jun 2025' },
+  { monogram: 'FR', color: '#F1592A', title: 'Freelance', role: 'Web Developer', range: 'Aug 2023 - Apr 2025' }
 ]
 
 const MONTHS: Record<string, number> = {

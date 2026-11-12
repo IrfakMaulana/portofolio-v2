@@ -21,7 +21,7 @@ const withTransition = (Component: React.ComponentType<PageProps>) => {
           exit={{ top: '-100%' }}
           transition={{ duration: 1, ease: easeDefault }}
         >
-          <h1 className="font-display text-3xl text-primary md:text-6xl">M. Reno Hidayat</h1>
+          <h1 className="font-display text-3xl text-primary md:text-6xl">Muhammad Irfa' Maulana</h1>
         </motion.div>
         <motion.div
           className="slide-in z-[89] flex  items-center justify-center bg-white"
@@ -30,7 +30,7 @@ const withTransition = (Component: React.ComponentType<PageProps>) => {
           exit={{ top: '0%' }}
           transition={{ duration: 1, ease: easeDefault }}
         >
-          <h1 className="font-display text-3xl text-primary md:text-6xl">M. Reno Hidayat</h1>
+          <h1 className="font-display text-3xl text-primary md:text-6xl">Muhammad Irfa' Maulana</h1>
         </motion.div>
       </ReactLenis>
     )

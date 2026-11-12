@@ -5,7 +5,6 @@ import { stats } from 'lib/stats'
 import { useTranslation } from 'lib/translations'
 import StaggerElementFooter from 'module/footer/stagger-element'
 import React from 'react'
-import RenoPhoto from 'assets/images/reno-graduation.png'
 
 const Description = () => {
   const [hover, setHover] = React.useState(false)
@@ -25,12 +24,9 @@ const Description = () => {
           <div className="absolute inset-0 top-[12%] scale-90 rounded-full bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.22)_0%,rgba(255,255,255,0.08)_45%,transparent_70%)] blur-2xl" />
 
           <img
-            src={RenoPhoto}
-            alt="M. Reno Hidayat, S.Kom. — Reno Hidayat — Reno"
-            title="M. Reno Hidayat — Reno Hidayat"
-            loading="eager"
-            itemProp="image"
-            className="relative h-auto w-full object-contain opacity-35 transition-opacity duration-700 md:opacity-50 lg:opacity-100"
+            src="/img/personal/full-badanv2.png"
+            alt="Muhammad Irfa' Maulana"
+            className="relative aspect-[4/5] h-auto w-full object-cover object-top opacity-90 transition-opacity duration-700 md:opacity-95 lg:opacity-100"
           />
 
           {/* Smooth bottom fade into natural site background */}
@@ -42,33 +38,23 @@ const Description = () => {
       <div className="relative z-10 w-full lg:max-w-[55%] xl:max-w-[58%]">
         <h1 className="MENU-CHANGE-SCALE-125 font-display text-5xl font-semibold text-secondary lg:text-7xl">{t('summary_title')}</h1>
         <div className="mt-8 flex flex-col md:mt-12">
-          <h2 className="MENU-CHANGE-Y-100 max-w-[65%] font-poppins text-5xl font-semibold text-white lg:max-w-none lg:text-8xl">M. Reno Hidayat</h2>
+          <h2 className="MENU-CHANGE-Y-100 max-w-[65%] font-poppins text-5xl font-semibold text-white lg:max-w-none lg:text-8xl">Muhammad Irfa' Maulana</h2>
           <p className="MENU-CHANGE-Y-100 mt-4 max-w-[70%] font-poppins text-2xl text-secondary lg:max-w-none lg:text-3xl">{t('summary_role_line')}</p>
           <p className="MENU-CHANGE-Y-200 mt-10 text-justify font-poppins text-lg text-secondary lg:text-left lg:text-xl">
             {lang === 'id' ? (
               <>
-                <span className="font-semibold text-white">Halo</span>, saya Reno, lulusan Informatika dari{' '}
-                <span className="font-medium text-white">Universitas Sebelas April</span>, Indonesia. Saya mengembangkan aplikasi web dan mobile,
-                sistem backend, serta proyek berbasis AI menggunakan teknologi seperti Flutter, Laravel, JavaScript, Python, dan Firebase.
-                <br />
-                <br />
-                Beberapa proyek yang pernah saya kerjakan meliputi sistem ujian akademik, website institusi, dan aplikasi berbasis AI. Saya tertarik
-                membangun solusi digital yang bermanfaat sekaligus terus mengembangkan kemampuan sebagai developer.
-                <br />
-                <br />
+                <span className="font-semibold text-white">Halo</span>, saya Muhammad Irfa' Maulana, seorang Software Engineer dengan fokus pada fullstack web development, otomasi proses bisnis, dan integrasi sistem.
+                <br /><br />
+                Saya mengembangkan aplikasi web, backend, REST API, serta solusi otomasi menggunakan JavaScript, TypeScript, Node.js, Python, PHP, Laravel, Next.js, dan Excel VBA.
+                <br /><br />
                 Terbuka untuk kolaborasi dan peluang baru.
               </>
             ) : (
               <>
-                <span className="font-semibold text-white">Hello</span>, I am Reno, an Informatics graduate from{' '}
-                <span className="font-medium text-white">Universitas Sebelas April</span>, Indonesia. I develop web and mobile applications, backend
-                systems, and AI-based projects using technologies such as Flutter, Laravel, JavaScript, Python, and Firebase.
-                <br />
-                <br />
-                Some of the projects I have worked on include academic exam systems, institutional websites, and AI-based applications. I am keen on
-                building impactful digital solutions while continually growing my skills as a developer.
-                <br />
-                <br />
+                <span className="font-semibold text-white">Hello</span>, I am Muhammad Irfa' Maulana, a Software Engineer focused on fullstack web development, business process automation, and system integration.
+                <br /><br />
+                I develop web applications, backend systems, REST APIs, and automation solutions using JavaScript, TypeScript, Node.js, Python, PHP, Laravel, Next.js, and Excel VBA.
+                <br /><br />
                 Open to collaboration and new opportunities.
               </>
             )}
@@ -85,7 +71,8 @@ const Description = () => {
             ))}
           </div>
           <a
-            href="/m_reno_hidayat_cv.pdf"
+            href="#"
+            onClick={(event) => event.preventDefault()}
             target="_blank"
             download
             title={t('summary_download_cv_title')}

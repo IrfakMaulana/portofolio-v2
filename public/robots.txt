@@ -1,13 +1,1 @@
-User-agent: *
-Allow: /
-
-User-agent: Googlebot
-Allow: /
-
-User-agent: Googlebot-Image
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-Sitemap: https://renohidayat.web.app/sitemap.xml
+User-agent: *`r`nAllow: /`r`n`r`n# Sitemap is intentionally omitted until the Firebase domain is finalized.`r`n

@@ -1,7 +1,26 @@
 {
   "$schema": "https://agenticresourcediscovery.org/spec/v1/schema.json",
-  "name": "M. Reno Hidayat Portfolio",
-  "description": "Portfolio of M. Reno Hidayat, Full Stack Engineer & Informatics Graduate",
-  "url": "https://renohidayat.web.app",
-  "capabilities": []
+  "name": "Muhammad Irfa' Maulana Portfolio",
+  "description": "Portfolio of Muhammad Irfa' Maulana (IrfakMaulana), Software Engineer & IT Automation Developer.",
+  "brand": "IrfakMaulana",
+  "url": null,
+  "languages": ["id", "en"],
+  "projects": [
+    "DokumentStudio",
+    "WhatsApp Pre-Order Automation",
+    "Excel VBA Automation",
+    "WhatsApp Bot Autosender",
+    "Platform E-commerce Sumber Wangi",
+    "Sumberwangi HR App",
+    "Coffee Shop Landing Page",
+    "E-commerce Website",
+    "Anime Metadata Website",
+    "Game Top-up Website"
+  ],
+  "capabilities": [
+    "Fullstack Web Development",
+    "Business Process Automation",
+    "System Integration",
+    "REST API Development"
+  ]
 }

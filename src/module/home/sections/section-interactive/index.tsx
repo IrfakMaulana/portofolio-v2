@@ -108,15 +108,13 @@ const Default = () => {
         <motion.p style={{ y: scrollSpeedDesc }} className="CONTAINER MENU-CHANGE-Y-100  pointer-events-none mt-20 text-4xl text-gray-600">
           {lang === 'id' ? (
             <>
-              Halo, saya <span className="font-semibold text-primary">M. Reno Hidayat</span>, seorang{' '}
-              <span className="font-semibold text-primary">Full Stack Engineer</span> yang berfokus pada pengembangan aplikasi web, mobile,
-              backend systems, dan solusi berbasis Artificial Intelligence. Jelajahi karya dan portofolio digital saya.
+              Halo, saya <span className="font-semibold text-primary">Muhammad Irfa' Maulana</span>, seorang{' '}
+              <span className="font-semibold text-primary">Software Engineer & IT Automation Developer</span> dengan latar belakang Fullstack Web Development. Saya membangun aplikasi web, sistem backend, dan solusi otomasi untuk menyelesaikan masalah bisnis nyata.
             </>
           ) : (
             <>
-              Greetings, I&apos;m <span className="font-semibold text-primary">M. Reno Hidayat</span>, a dedicated{' '}
-              <span className="font-semibold text-primary">Full Stack Engineer</span> focused on building web apps, mobile solutions,
-              backend systems, and Artificial Intelligence. Explore my digital engineering journey.
+              Hello, I&apos;m <span className="font-semibold text-primary">Muhammad Irfa' Maulana</span>, a{' '}
+              <span className="font-semibold text-primary">Software Engineer & IT Automation Developer</span> with a background in Fullstack Web Development. I build web applications, backend systems, and automation solutions that solve real-world business problems.
             </>
           )}
         </motion.p>
@@ -234,7 +232,7 @@ const Default = () => {
           <div className="CONTAINER MENU-CHANGE-Y-100 mt-14 flex items-center gap-6">
             <Magnet strength={20}>
               <a
-                href="https://github.com/Renohidayat"
+                href="#" onClick={(event) => event.preventDefault()}
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Github"
@@ -245,7 +243,7 @@ const Default = () => {
             </Magnet>
             <Magnet strength={20}>
               <a
-                href="https://www.linkedin.com/in/renohidayat"
+                href="#" onClick={(event) => event.preventDefault()}
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
@@ -256,7 +254,7 @@ const Default = () => {
             </Magnet>
             <Magnet strength={20}>
               <a
-                href="https://www.instagram.com/renohidayt/"
+                href="#" onClick={(event) => event.preventDefault()}
                 target="_blank"
                 rel="noreferrer"
                 aria-label="Instagram"

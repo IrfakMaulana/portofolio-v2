@@ -35,21 +35,21 @@ const Page = () => {
 
   // Dynamic Page-Level SEO (Title, Description, Canonical URL, OG Title)
   useEffect(() => {
-    let title = 'M. Reno Hidayat — Full Stack Engineer & Informatics Graduate'
+    let title = "Muhammad Irfa' Maulana — Software Engineer & IT Automation Developer"
     let description =
-      'Portofolio resmi M. Reno Hidayat, S.Kom. — Full Stack Engineer & Lulusan Informatika Universitas Sebelas April. Mengembangkan aplikasi web, mobile (Flutter), sistem backend, dan AI.'
-    let canonical = 'https://renohidayat.web.app/'
+      "Portfolio Muhammad Irfa' Maulana (IrfakMaulana), Software Engineer & IT Automation Developer focused on fullstack web development, business process automation, and system integration."
+    let canonical = ''
 
     if (location.pathname === routes.about) {
-      title = 'About — M. Reno Hidayat | Full Stack Engineer'
+      title = "About — Muhammad Irfa' Maulana | Software Engineer"
       description =
-        'Tentang M. Reno Hidayat, S.Kom. — Latar belakang pendidikan Informatika di Universitas Sebelas April, pengalaman profesional, riset ilmiah, dan sertifikasi.'
-      canonical = 'https://renohidayat.web.app/about'
+        "About Muhammad Irfa' Maulana, a Software Engineer focused on fullstack development, business process automation, and system integration."
+      canonical = ''
     } else if (location.pathname === routes.summary) {
-      title = 'Summary & Certificates — M. Reno Hidayat | S.Kom.'
+      title = "Summary — Muhammad Irfa' Maulana | Software Engineer"
       description =
-        'Ringkasan profil, keahlian teknis, curriculum vitae (CV), dan sertifikasi resmi M. Reno Hidayat (IBM SkillsBuild, ASEAN Foundation, Google Cloud).'
-      canonical = 'https://renohidayat.web.app/summary'
+        "Summary of Muhammad Irfa' Maulana's experience, education, projects, skills, and certificates."
+      canonical = ''
     }
 
     document.title = title
@@ -61,10 +61,10 @@ const Page = () => {
     if (ogTitle) ogTitle.setAttribute('content', title)
 
     const ogUrl = document.querySelector('meta[property="og:url"]')
-    if (ogUrl) ogUrl.setAttribute('content', canonical)
+    if (ogUrl && canonical) ogUrl.setAttribute('content', canonical)
 
     const canonicalLink = document.querySelector('link[rel="canonical"]')
-    if (canonicalLink) canonicalLink.setAttribute('href', canonical)
+    if (canonicalLink && canonical) canonicalLink.setAttribute('href', canonical)
   }, [location.pathname])
 
   useEffect(() => {

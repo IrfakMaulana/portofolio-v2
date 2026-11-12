@@ -44,15 +44,13 @@ export default function SectionInteractiveMobile() {
         <motion.p style={{ y: scrollSpeedDesc }} className="CONTAINER pointer-events-none mt-20 text-justify text-2xl text-gray-700 ">
           {lang === 'id' ? (
             <>
-              Halo, saya <span className="font-semibold text-primary">M. Reno Hidayat</span>, seorang{' '}
-              <span className="font-semibold text-primary">Full Stack Engineer</span> yang berfokus pada pengembangan aplikasi web, mobile,
-              backend systems, dan solusi Artificial Intelligence. Jelajahi karya dan portofolio digital saya.
+              Halo, saya <span className="font-semibold text-primary">Muhammad Irfa' Maulana</span>, seorang{' '}
+              <span className="font-semibold text-primary">Software Engineer & IT Automation Developer</span> dengan latar belakang Fullstack Web Development. Saya membangun aplikasi web, sistem backend, dan solusi otomasi untuk menyelesaikan masalah bisnis nyata.
             </>
           ) : (
             <>
-              Greetings, I&apos;m <span className="font-semibold text-primary">M. Reno Hidayat</span>, a dedicated{' '}
-              <span className="font-semibold text-primary">Full Stack Engineer</span> focused on building web apps, mobile solutions,
-              backend systems, and Artificial Intelligence. Explore my digital engineering journey.
+              Hello, I&apos;m <span className="font-semibold text-primary">Muhammad Irfa' Maulana</span>, a{' '}
+              <span className="font-semibold text-primary">Software Engineer & IT Automation Developer</span> with a background in Fullstack Web Development. I build web applications, backend systems, and automation solutions that solve real-world business problems.
             </>
           )}
         </motion.p>

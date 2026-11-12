@@ -79,8 +79,8 @@ const getParagraph = (lang: Lang) => [
       style={{ marginLeft: '1rem', cursor: 'default', marginBottom: '2rem' }}
     />
   </div>,
-  <div className="flex items-center" key="renohidayat">
-    m. reno hidayat
+  <div className="flex items-center" key="irfakmaulana">
+    Muhammad Irfa' Maulana
     <Lottie
       options={{ ...defaultOptions, animationData: ArrowAnimation }}
       height={50}

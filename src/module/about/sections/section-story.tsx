@@ -30,25 +30,25 @@ export default function SectionStory() {
         {lang === 'id' ? (
           <>
             <p className="CHILD-STAGGER font-poppins text-lg text-secondary lg:text-2xl">
-              Saya Reno, lulusan Informatika dari Universitas Sebelas April. Saya tertarik pada software engineering, pengembangan aplikasi web dan mobile, sistem backend, cloud computing, serta Artificial Intelligence (AI).
+              Saya adalah Software Engineer dengan latar belakang Fullstack Web Development dan pengalaman dalam pengembangan aplikasi, otomasi proses bisnis, serta integrasi sistem. Saya berfokus membangun solusi perangkat lunak yang efisien, terstruktur, dan mampu menyelesaikan kebutuhan nyata.
             </p>
             <p className="CHILD-STAGGER font-poppins text-lg text-secondary lg:text-2xl">
-              Saya telah mengerjakan berbagai proyek, mulai dari website institusi dan aplikasi mobile hingga platform perencanaan perjalanan berbasis AI dan penelitian analisis sentimen. Dalam proses pengembangan, saya terbiasa memahami kebutuhan sistem, merancang solusi, mengembangkan fitur, mengintegrasikan API, serta melakukan pengujian dan debugging.
+              Saya memiliki pengalaman mengembangkan aplikasi web, sistem backend, REST API, serta berbagai solusi otomasi menggunakan JavaScript, TypeScript, Node.js, Python, PHP, Laravel, Next.js, dan Excel VBA. Saya juga memiliki ketertarikan pada pengelolaan database, integrasi sistem, dan pengembangan aplikasi internal untuk meningkatkan efisiensi operasional.
             </p>
             <p className="CHILD-STAGGER font-poppins text-lg text-secondary lg:text-2xl">
-              Saya terus mengembangkan kemampuan melalui pengerjaan proyek, pembelajaran mandiri, dan eksplorasi teknologi baru. Saya terbuka untuk berkolaborasi dalam membangun produk digital yang bermanfaat, mudah digunakan, dan dapat dikembangkan sesuai kebutuhan.
+              Bagi saya, pengembangan perangkat lunak bukan hanya tentang menulis kode, tetapi juga memahami permasalahan, merancang solusi yang tepat, dan membangun sistem yang dapat digunakan serta dikembangkan dalam jangka panjang.
             </p>
           </>
         ) : (
           <>
             <p className="CHILD-STAGGER font-poppins text-lg text-secondary lg:text-2xl">
-              I am Reno, an Informatics graduate from Universitas Sebelas April. I am interested in software engineering, web and mobile app development, backend systems, cloud computing, and Artificial Intelligence (AI).
+              I am a Software Engineer with a background in Fullstack Web Development and experience in application development, business process automation, and system integration. I focus on building efficient, structured, and solution-oriented software.
             </p>
             <p className="CHILD-STAGGER font-poppins text-lg text-secondary lg:text-2xl">
-              I have worked on various projects, ranging from institutional websites and mobile applications to AI-based travel planning platforms and sentiment analysis research. Throughout the development process, I am accustomed to understanding system requirements, designing solutions, developing features, integrating APIs, as well as testing and debugging.
+              My experience includes developing web applications, backend systems, REST APIs, and automation solutions using JavaScript, TypeScript, Node.js, Python, PHP, Laravel, Next.js, and Excel VBA. I am also interested in database management, system integration, and internal application development to improve operational efficiency.
             </p>
             <p className="CHILD-STAGGER font-poppins text-lg text-secondary lg:text-2xl">
-              I continuously improve my skills through project execution, self-directed learning, and exploring new technologies. I am open to collaborating in building digital products that are useful, easy to use, and scalable to meet needs.
+              To me, software development is not just about writing code. It is about understanding problems, designing effective solutions, and building systems that are useful, maintainable, and scalable.
             </p>
           </>
         )}

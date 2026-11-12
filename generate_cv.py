@@ -1,3 +1,21 @@
+"""CV generation is intentionally disabled until personal contact details and CV assets are supplied.
+
+This module contains no personal contact data and must not generate or overwrite a CV file.
+"""
+
+import sys
+
+
+def main() -> None:
+    raise SystemExit(
+        'CV generation is disabled: provide Muhammad Irfa\' Maulana\'s final contact details and CV asset first.'
+    )
+
+
+if __name__ == '__main__':
+    main()
+
+'''LEGACY IMPLEMENTATION REMOVED
 import os
 from reportlab.lib.pagesizes import letter
 from reportlab.lib import colors
@@ -162,25 +180,25 @@ def build_pdf(filename):
 
     # Experience 1
     add_item_header("Fakultas Ekonomi dan Bisnis (FEB) UNSAP", "Sumedang, Indonesia", "Full-Stack Developer", "Nov 2025 - May 2026")
-    story.append(Paragraph("• &nbsp; Redesigned and redeveloped the official faculty website using Laravel, PHP, MySQL, and Tailwind CSS to improve its interface and presentation of academic information.", bullet_style))
-    story.append(Paragraph("• &nbsp; Designed and developed SIPENA, a digital examination and attendance platform integrating Flutter, React, and Firebase.", bullet_style))
-    story.append(Paragraph("• &nbsp; Implemented real-time attendance monitoring with 10-second heartbeat tracking and background activity detection.", bullet_style))
-    story.append(Paragraph("• &nbsp; Integrated automated PDF generation for attendance records and examination reports, along with Firebase Cloud Messaging (FCM) notifications.", bullet_style))
-    story.append(Paragraph("• &nbsp; Developed content management features for faculty news, lecturer profiles, academic information, and institutional activities.", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; Redesigned and redeveloped the official faculty website using Laravel, PHP, MySQL, and Tailwind CSS to improve its interface and presentation of academic information.", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; Designed and developed SIPENA, a digital examination and attendance platform integrating Flutter, React, and Firebase.", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; Implemented real-time attendance monitoring with 10-second heartbeat tracking and background activity detection.", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; Integrated automated PDF generation for attendance records and examination reports, along with Firebase Cloud Messaging (FCM) notifications.", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; Developed content management features for faculty news, lecturer profiles, academic information, and institutional activities.", bullet_style))
     story.append(Spacer(1, 4))
 
     # Experience 2
-    add_item_header("KKN Tematik Desa Serang – Universitas Sebelas April", "Sumedang, Indonesia", "Web Developer & Digital Documentation", "Jan 2026 - Feb 2026")
-    story.append(Paragraph("• &nbsp; Developed a digital storefront and product catalog for Dapoer Sari Pohaci, a local micro, small, and medium enterprise (MSME).", bullet_style))
-    story.append(Paragraph("• &nbsp; Integrated WhatsApp ordering to simplify customer inquiries and orders.", bullet_style))
-    story.append(Paragraph("• &nbsp; Organized digital documentation and multimedia archives to support community program reporting and promotion.", bullet_style))
+    add_item_header("KKN Tematik Desa Serang â€“ Universitas Sebelas April", "Sumedang, Indonesia", "Web Developer & Digital Documentation", "Jan 2026 - Feb 2026")
+    story.append(Paragraph("â€¢ &nbsp; Developed a digital storefront and product catalog for Dapoer Sari Pohaci, a local micro, small, and medium enterprise (MSME).", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; Integrated WhatsApp ordering to simplify customer inquiries and orders.", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; Organized digital documentation and multimedia archives to support community program reporting and promotion.", bullet_style))
     story.append(Spacer(1, 4))
 
     # 4. PROJECTS AND COMMUNITY
     add_section_header("PROJECTS AND COMMUNITY")
 
     # Project 1: Jelajah Nusantara
-    add_item_header("Jelajah Nusantara AI – AI-Powered Travel Planner", "2026")
+    add_item_header("Jelajah Nusantara AI â€“ AI-Powered Travel Planner", "2026")
     story.append(Paragraph(
         "Developed an AI-powered travel planning web application using JavaScript, Vite, Node.js, Express, and Firebase. "
         "Integrated the DeepSeek API to generate travel itineraries, Leaflet.js for map visualization, and Chart.js for budget visualization. "
@@ -192,7 +210,7 @@ def build_pdf(filename):
     story.append(PageBreak())
 
     # Project 2: CGMI
-    add_item_header("CGMI Assessment App – Civic GovTech Platform", "2026")
+    add_item_header("CGMI Assessment App â€“ Civic GovTech Platform", "2026")
     story.append(Paragraph(
         "Developed a web-based assessment platform for evaluating collaborative governance in Sumedang. "
         "Implemented 30 indicators across six dimensions, automated scoring, and radar chart visualization. "
@@ -201,9 +219,9 @@ def build_pdf(filename):
     story.append(Spacer(1, 5))
 
     # Project 3: Sentiment Analysis
-    add_item_header("Sentiment Analysis – Machine Learning Research", "2026")
+    add_item_header("Sentiment Analysis â€“ Machine Learning Research", "2026")
     story.append(Paragraph(
-        "Conducted sentiment analysis of Indonesian YouTube comments concerning the public controversy surrounding Joko Widodo’s academic degree. "
+        "Conducted sentiment analysis of Indonesian YouTube comments concerning the public controversy surrounding Joko Widodoâ€™s academic degree. "
         "Applied TF-IDF feature extraction and Support Vector Machine (SVM) with an RBF kernel. "
         "Developed a web interface using React and a backend API using FastAPI.", body_style
     ))
@@ -215,24 +233,24 @@ def build_pdf(filename):
         "Completed Google Cloud Computing Foundations learning activities and earned 10,195 points in the Gold League. "
         "Completed Google Cloud skill badges related to load balancing, secure networking, application development, and machine learning APIs. "
         "Participated in #JuaraVibeCoding Study Jam by Google Developer Groups (GDG), May 2026. "
-        "Attended the Digital Literacy Seminar for University Students organized by Indonesia’s Ministry of Communication and Informatics, 2024.", body_style
+        "Attended the Digital Literacy Seminar for University Students organized by Indonesiaâ€™s Ministry of Communication and Informatics, 2024.", body_style
     ))
     story.append(Spacer(1, 8))
 
     # 5. EDUCATION
     add_section_header("EDUCATION")
-    add_item_header("Universitas Sebelas April (UNSAP)", "Sumedang, Indonesia", "Bachelor’s Degree in Informatics (S.Kom.), GPA 3.52", "2022 - 2026")
+    add_item_header("Universitas Sebelas April (UNSAP)", "Sumedang, Indonesia", "Bachelorâ€™s Degree in Informatics (S.Kom.), GPA 3.52", "2022 - 2026")
     story.append(Spacer(1, 8))
 
     # 6. SKILLS
     add_section_header("SKILLS")
-    story.append(Paragraph("• &nbsp; <b>Programming Languages:</b> JavaScript, TypeScript, Dart, PHP, Python, HTML5, CSS3, SQL", bullet_style))
-    story.append(Paragraph("• &nbsp; <b>Frontend Development:</b> React, Vite, Tailwind CSS, Responsive UI, Progressive Web Apps (PWA)", bullet_style))
-    story.append(Paragraph("• &nbsp; <b>Mobile Development:</b> Flutter, Dart, Android, Cross-Platform Development", bullet_style))
-    story.append(Paragraph("• &nbsp; <b>Backend Development:</b> Laravel, Node.js, Express.js, FastAPI, REST APIs, Firebase Cloud Functions", bullet_style))
-    story.append(Paragraph("• &nbsp; <b>Database & Cloud:</b> MySQL, Cloud Firestore, Firebase Realtime Database, Firebase Authentication, Firebase Hosting, Firebase Cloud Messaging, Google Cloud", bullet_style))
-    story.append(Paragraph("• &nbsp; <b>AI & Data Analysis:</b> Scikit-learn, SVM, TF-IDF, Natural Language Processing (NLP), PySastrawi, LLM API Integration, PLS-SEM", bullet_style))
-    story.append(Paragraph("• &nbsp; <b>Tools & Practices:</b> Git, GitHub, Postman, Chart.js, Leaflet.js, System Architecture, Agile/Scrum", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; <b>Programming Languages:</b> JavaScript, TypeScript, Dart, PHP, Python, HTML5, CSS3, SQL", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; <b>Frontend Development:</b> React, Vite, Tailwind CSS, Responsive UI, Progressive Web Apps (PWA)", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; <b>Mobile Development:</b> Flutter, Dart, Android, Cross-Platform Development", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; <b>Backend Development:</b> Laravel, Node.js, Express.js, FastAPI, REST APIs, Firebase Cloud Functions", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; <b>Database & Cloud:</b> MySQL, Cloud Firestore, Firebase Realtime Database, Firebase Authentication, Firebase Hosting, Firebase Cloud Messaging, Google Cloud", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; <b>AI & Data Analysis:</b> Scikit-learn, SVM, TF-IDF, Natural Language Processing (NLP), PySastrawi, LLM API Integration, PLS-SEM", bullet_style))
+    story.append(Paragraph("â€¢ &nbsp; <b>Tools & Practices:</b> Git, GitHub, Postman, Chart.js, Leaflet.js, System Architecture, Agile/Scrum", bullet_style))
 
     doc.build(story)
     print(f"Successfully generated {filename}")
@@ -240,3 +258,5 @@ def build_pdf(filename):
 if __name__ == "__main__":
     target1 = "public/m_reno_hidayat_cv.pdf"
     build_pdf(target1)
+
+'''

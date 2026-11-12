@@ -18,111 +18,23 @@ import {
   SiNodedotjs,
   SiOpenai,
   SiPhp,
+  SiPython,
   SiReact,
   SiTailwindcss,
   SiVite
 } from 'react-icons/si'
 
-import SipenaHoverPreview from 'components/common/sipena-hover-preview'
-import FebUnsapHoverPreview from 'components/common/feb-unsap-hover-preview'
-import JelajahHoverPreview from 'components/common/jelajah-hover-preview'
-import NimexxHoverPreview from 'components/common/nimexx-hover-preview'
-import CgmiHoverPreview from 'components/common/cgmi-hover-preview'
-
-import SipenaLogo from 'assets/images/sipena-logo.png'
-import FebMockup1 from 'assets/images/feb-mockup-1.jpg'
-import FebMockup2 from 'assets/images/feb-mockup-2.png'
-import FebMockup3 from 'assets/images/feb-mockup-3.png'
-import JelajahMockup from 'assets/images/jelajah-nusantara-mockup.png'
-import Nimexx1 from 'assets/images/nimexx-mockup-1.png'
-import Nimexx2 from 'assets/images/nimexx-mockup-2.jpg'
-import CgmiMockup from 'assets/images/cgmi-mockup.png'
-
 const projects: ExperienceRowProps[] = [
-  {
-    text1: 'SIPENA',
-    text2: '2026',
-    text3: 'System Analyst, Architect & Lead Backend',
-    color: '#2E9E6C',
-    hoverElement: <SipenaHoverPreview />,
-    fullViewImage: SipenaLogo,
-    fullViewTitle: 'SIPENA - Sistem Informasi Ujian & Absensi FEB UNSAP',
-    link: 'https://github.com/Renohidayat/feb-unsap-exam',
-    techStack: [
-      { name: 'Flutter', icon: SiFlutter },
-      { name: 'Dart', icon: SiDart },
-      { name: 'Firebase', icon: SiFirebase },
-      { name: 'Node.js', icon: SiNodedotjs },
-      { name: 'React PWA', icon: SiReact }
-    ]
-  },
-  {
-    text1: 'Website FEB UNSAP',
-    text2: '2025 - 2026',
-    text3: 'Full Stack Web Developer (CMS Fakultas)',
-    color: '#0091F8',
-    hoverElement: <FebUnsapHoverPreview />,
-    fullViewImage: [FebMockup1, FebMockup2, FebMockup3],
-    fullViewTitle: 'Portal Resmi FEB UNSAP (Laravel & MySQL)',
-    link: 'https://feb.unsap.ac.id/',
-    techStack: [
-      { name: 'Laravel', icon: SiLaravel },
-      { name: 'PHP', icon: SiPhp },
-      { name: 'MySQL', icon: SiMysql },
-      { name: 'Tailwind CSS', icon: SiTailwindcss },
-      { name: 'Vite', icon: SiVite }
-    ]
-  },
-  {
-    text1: 'Jelajah Nusantara AI',
-    text2: '2026',
-    text3: 'AI Travel Planner (Monorepo)',
-    color: '#A3195B',
-    hoverElement: <JelajahHoverPreview />,
-    fullViewImage: JelajahMockup,
-    fullViewTitle: 'Jelajah Nusantara AI - Intelligent Travel Planner',
-    link: 'https://jelajah-nusantara-ai.vercel.app/',
-    techStack: [
-      { name: 'JavaScript', icon: SiJavascript },
-      { name: 'Vite', icon: SiVite },
-      { name: 'Node.js', icon: SiNodedotjs },
-      { name: 'Express', icon: SiExpress },
-      { name: 'Firebase', icon: SiFirebase },
-      { name: 'DeepSeek AI', icon: SiOpenai }
-    ]
-  },
-  {
-    text1: 'CGMI Assessment',
-    text2: '2026',
-    text3: 'Civic GovTech SPA (Kab. Sumedang)',
-    color: '#0F62FE',
-    hoverElement: <CgmiHoverPreview />,
-    fullViewImage: CgmiMockup,
-    fullViewTitle: 'CGMI Assessment App - Collaboration Governance Maturity Index (Kab. Sumedang)',
-    link: 'https://cgmi-assessmentt.web.app/',
-    techStack: [
-      { name: 'JavaScript', icon: SiJavascript },
-      { name: 'Tailwind CSS', icon: SiTailwindcss },
-      { name: 'Firebase', icon: SiFirebase },
-      { name: 'Chart.js', icon: SiChartdotjs },
-      { name: 'HTML5', icon: SiHtml5 }
-    ]
-  },
-  {
-    text1: 'NimeXx',
-    text2: '2025',
-    text3: 'Mobile App (Flutter)',
-    color: '#411719',
-    hoverElement: <NimexxHoverPreview />,
-    fullViewImage: [Nimexx1, Nimexx2],
-    fullViewTitle: 'NimeXx Mobile App (Flutter & Firebase)',
-    link: 'https://apkpure.com/id/nimexx/com.rennv.nimexxv2',
-    techStack: [
-      { name: 'Flutter', icon: SiFlutter },
-      { name: 'Dart', icon: SiDart },
-      { name: 'Firebase', icon: SiFirebase }
-    ]
-  }
+  { text1: 'DokumentStudio', text2: 'AI', text3: 'AI Academic Document Generator', color: '#FACC15', fullViewTitle: 'DokumentStudio — AI Academic Document Generator', link: 'https://dokument-generate-delta.vercel.app/', techStack: [{ name: 'Google Gemini API', icon: SiOpenai }, { name: 'Firebase', icon: SiFirebase }, { name: 'Python-docx', icon: SiPython }] },
+  { text1: 'WhatsApp Pre-Order Automation', text2: 'Internal', text3: 'Gemini AI bot for structured Google Sheets order processing', color: '#2E9E6C', fullViewImage: '/img/project/project-7.png', fullViewTitle: 'WhatsApp Pre-Order Automation', techStack: [{ name: 'Gemini AI', icon: SiOpenai }, { name: 'Google Sheets API' }] },
+  { text1: 'Excel VBA Automation', text2: 'Internal', text3: 'Operational reporting and Purchase Order automation', color: '#0091F8', fullViewImage: '/img/project/project-9.png', fullViewTitle: 'Excel VBA Automation', techStack: [{ name: 'Excel VBA' }, { name: 'Accurate 5' }, { name: 'Firebird' }] },
+  { text1: 'WhatsApp Bot Autosender', text2: 'Internal', text3: 'Automated internal announcement distribution', color: '#A3195B', fullViewImage: '/img/project/project-8.png', fullViewTitle: 'WhatsApp Bot Autosender', techStack: [{ name: 'WhatsApp Integration' }] },
+  { text1: 'Platform E-commerce Sumber Wangi', text2: 'Web', text3: 'Company e-commerce platform developed through deployment', color: '#0F62FE', fullViewImage: '/img/project/project-5.PNG', fullViewTitle: 'Platform E-commerce Sumber Wangi', link: 'https://sumberwangi.id/', techStack: [{ name: 'Web Development' }] },
+  { text1: 'Sumberwangi HR App', text2: 'Internal', text3: 'HR attendance and real-time vehicle location monitoring', color: '#F1592A', fullViewImage: '/img/project/project-6.PNG', fullViewTitle: 'Sumberwangi HR App', techStack: [{ name: 'HR System' }, { name: 'GPS Tracking' }] },
+  { text1: 'Coffee Shop Landing Page', text2: 'Web', text3: 'Coffee shop catalog and WhatsApp ordering landing page', color: '#8B5E3C', fullViewImage: '/img/project/project-1.png', fullViewTitle: 'Coffee Shop Landing Page', techStack: [{ name: 'HTML' }, { name: 'CSS' }, { name: 'WhatsApp Integration' }] },
+  { text1: 'E-commerce Website', text2: 'Web', text3: 'Laravel and React Inertia e-commerce with payment gateway', color: '#411719', fullViewImage: '/img/project/project-2.png', fullViewTitle: 'E-commerce Website', techStack: [{ name: 'Laravel', icon: SiLaravel }, { name: 'React', icon: SiReact }, { name: 'Payment Gateway' }] },
+  { text1: 'Anime Metadata Website', text2: 'Web', text3: 'Anime catalog with metadata, trailers, episodes, trending and ongoing titles', color: '#6C63FF', fullViewImage: '/img/project/project-3.png', fullViewTitle: 'Anime Metadata Website', techStack: [{ name: 'Jikan API' }, { name: 'JavaScript', icon: SiJavascript }] },
+  { text1: 'Game Top-up Website', text2: 'Web', text3: 'Game top-up platform for mobile and PC games', color: '#EF4444', fullViewImage: '/img/project/project-4.png', fullViewTitle: 'Game Top-up Website', techStack: [{ name: 'E-commerce' }, { name: 'Web Development' }] }
 ]
 
 export default function SectionProjects() {

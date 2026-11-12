@@ -1,11 +1,9 @@
-// import WithCursorElement from 'components/common/with-cursor-element'
 import Magnet from 'components/effect/magnet'
 import { motion } from 'framer-motion'
 import { easeDefault } from 'lib/utils'
 import { AiOutlineArrowRight } from 'react-icons/ai'
-import { GrGithub, GrInstagram, GrLinkedin } from 'react-icons/gr'
+import { GrGithub, GrLinkedin } from 'react-icons/gr'
 import { MdEmail } from 'react-icons/md'
-import { Link } from 'react-router-dom'
 import { BLUR_HOVER_LINK } from '.'
 import StaggerSlideElementMenu from './stagger-slide-element-menu'
 
@@ -24,24 +22,20 @@ export default function MenuFooter() {
         className="mb-10 font-display text-3xl font-semibold leading-[1.2] md:mb-0 md:text-5xl lg:text-7xl"
         tag="h2"
       >
-        M. RENO HIDAYAT
+        MUHAMMAD IRFA' MAULANA
       </StaggerSlideElementMenu>
       <div className="mb-10 flex flex-col gap-2 md:hidden">
-        <Link to="https://www.linkedin.com/in/renohidayat" target="_blank" className="flex items-end gap-2">
+        <a href="#" onClick={(event) => event.preventDefault()} className="flex items-end gap-2">
           <GrLinkedin className="mt-1 text-xl text-primary" />
           <span className="font-poppins font-light underline">LinkedIn</span>
-        </Link>
-        <Link to="https://github.com/Renohidayat" target="_blank" className="flex items-end gap-2">
+        </a>
+        <a href="#" onClick={(event) => event.preventDefault()} className="flex items-end gap-2">
           <GrGithub className="text-xl !text-primary" />
           <span className="font-poppins font-light underline">Github</span>
-        </Link>
-        <Link to="https://www.instagram.com/renohidayt/" target="_blank" className="flex items-end gap-2">
-          <GrInstagram className="text-xl !text-primary" />
-          <span className="font-poppins font-light underline">Instagram</span>
-        </Link>
-        <a href="mailto:hidayatreno085@gmail.com" className="flex items-end gap-2">
+        </a>
+        <a href="#" onClick={(event) => event.preventDefault()} className="flex items-end gap-2">
           <MdEmail className="text-xl !text-primary" />
-          <span className="font-poppins font-light underline">hidayatreno085@gmail.com</span>
+          <span className="font-poppins font-light underline">Email</span>
         </a>
       </div>
       <StaggerSlideElementMenu
@@ -49,16 +43,13 @@ export default function MenuFooter() {
         className="hidden w-fit origin-bottom items-baseline gap-x-10 bg-primary px-3 pb-2 pt-3 md:flex"
         tag="div"
       >
-        <Link to="https://www.linkedin.com/in/renohidayat" target="_blank" className="flex items-baseline" title="LinkedIn">
+        <a href="#" onClick={(event) => event.preventDefault()} className="flex items-baseline" title="LinkedIn">
           <GrLinkedin className="mt-1 text-xl text-white" />
-        </Link>
-        <Link to="https://github.com/Renohidayat" target="_blank" className="flex items-baseline" title="GitHub">
+        </a>
+        <a href="#" onClick={(event) => event.preventDefault()} className="flex items-baseline" title="GitHub">
           <GrGithub className="text-xl !text-white" />
-        </Link>
-        <Link to="https://www.instagram.com/renohidayt/" target="_blank" className="flex items-baseline" title="Instagram">
-          <GrInstagram className="text-xl !text-white" />
-        </Link>
-        <a href="mailto:hidayatreno085@gmail.com" className="flex items-baseline" title="Email">
+        </a>
+        <a href="#" onClick={(event) => event.preventDefault()} className="flex items-baseline" title="Email">
           <MdEmail className="text-xl !text-white" />
         </a>
       </StaggerSlideElementMenu>

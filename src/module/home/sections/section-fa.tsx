@@ -16,7 +16,7 @@ const FA = (props: HTMLMotionProps<'div'>) => {
           fontWeight="900"
           letterSpacing="4"
         >
-          RH
+          IM
         </text>
       </svg>
     </motion.div>

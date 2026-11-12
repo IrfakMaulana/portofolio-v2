@@ -58,8 +58,8 @@ const Experiences = () => {
                   ? 'Sistem Informasi Ujian & Absensi Terintegrasi FEB UNSAP'
                   : 'Integrated Exam & Attendance Information System FEB UNSAP',
                 lang === 'id'
-                  ? 'System Analyst, System Architect & Lead Backend · Heartbeat 10s, Anti-Cheat, Cloud Functions & FCM · 2026'
-                  : 'System Analyst, System Architect & Lead Backend · 10s Heartbeat, Anti-Cheat, Cloud Functions & FCM · 2026'
+                  ? 'System Analyst, System Architect & Lead Backend Ã‚Â· Heartbeat 10s, Anti-Cheat, Cloud Functions & FCM Ã‚Â· 2026'
+                  : 'System Analyst, System Architect & Lead Backend Ã‚Â· 10s Heartbeat, Anti-Cheat, Cloud Functions & FCM Ã‚Â· 2026'
               ]}
               link="https://github.com/Renohidayat/feb-unsap-exam"
               techStack={[
@@ -77,8 +77,8 @@ const Experiences = () => {
                   ? 'Pusat Informasi Digital & CMS Portal FEB UNSAP'
                   : 'Official Web Portal & CMS of FEB UNSAP',
                 lang === 'id'
-                  ? 'Full Stack Web Developer (Project-Based) · Laravel 11, PHP 8.2, MySQL, Tailwind CSS · 2025 - 2026'
-                  : 'Full Stack Web Developer (Project-Based) · Laravel 11, PHP 8.2, MySQL, Tailwind CSS · 2025 - 2026'
+                  ? 'Full Stack Web Developer (Project-Based) Ã‚Â· Laravel 11, PHP 8.2, MySQL, Tailwind CSS Ã‚Â· 2025 - 2026'
+                  : 'Full Stack Web Developer (Project-Based) Ã‚Â· Laravel 11, PHP 8.2, MySQL, Tailwind CSS Ã‚Â· 2025 - 2026'
               ]}
               link="https://feb.unsap.ac.id/"
               className="mt-5"
@@ -97,8 +97,8 @@ const Experiences = () => {
                   ? 'AI Travel Planner: Itinerary Cerdas, Interactive Map & Visual Budget'
                   : 'AI Travel Planner: Smart Itinerary, Interactive Map & Visual Budget',
                 lang === 'id'
-                  ? 'Full Stack Monorepo Developer · ES6 JS, Vite, Node.js, Express, Firebase, DeepSeek AI · 2026'
-                  : 'Full Stack Monorepo Developer · ES6 JS, Vite, Node.js, Express, Firebase, DeepSeek AI · 2026'
+                  ? 'Full Stack Monorepo Developer Ã‚Â· ES6 JS, Vite, Node.js, Express, Firebase, DeepSeek AI Ã‚Â· 2026'
+                  : 'Full Stack Monorepo Developer Ã‚Â· ES6 JS, Vite, Node.js, Express, Firebase, DeepSeek AI Ã‚Â· 2026'
               ]}
               link="https://jelajah-nusantara-ai.vercel.app/"
               className="mt-5"
@@ -118,8 +118,8 @@ const Experiences = () => {
                   ? 'Riset Machine Learning Sentimen Komentar YouTube Isu Ijazah Jokowi (2.561 Komentar)'
                   : 'Machine Learning YouTube Sentiment Analysis on Jokowi Degree Issue (2,561 Comments)',
                 lang === 'id'
-                  ? 'Peneliti Utama & Full Stack ML · SVM-RBF (Akurasi 75.24%), PySastrawi, FastAPI, React · 2025 - 2026'
-                  : 'Lead Researcher & Full Stack ML · SVM-RBF (75.24% Acc), PySastrawi, FastAPI, React · 2025 - 2026'
+                  ? 'Peneliti Utama & Full Stack ML Ã‚Â· SVM-RBF (Akurasi 75.24%), PySastrawi, FastAPI, React Ã‚Â· 2025 - 2026'
+                  : 'Lead Researcher & Full Stack ML Ã‚Â· SVM-RBF (75.24% Acc), PySastrawi, FastAPI, React Ã‚Â· 2025 - 2026'
               ]}
               link="https://sentimen-ijazah.vercel.app/"
               className="mt-5"
@@ -138,8 +138,8 @@ const Experiences = () => {
                   ? 'Platform Web Asesmen Tata Kelola Kolaborasi Pemerintah Kab. Sumedang'
                   : 'Collaboration Governance Assessment Platform for Sumedang Regency Government',
                 lang === 'id'
-                  ? 'Vanilla JS (ES Modules), Tailwind CSS, Firebase, Radar Chart.js · 2026'
-                  : 'Vanilla JS (ES Modules), Tailwind CSS, Firebase, Radar Chart.js · 2026'
+                  ? 'Vanilla JS (ES Modules), Tailwind CSS, Firebase, Radar Chart.js Ã‚Â· 2026'
+                  : 'Vanilla JS (ES Modules), Tailwind CSS, Firebase, Radar Chart.js Ã‚Â· 2026'
               ]}
               link="https://cgmi-assessmentt.web.app/"
               className="mt-5"
@@ -153,7 +153,7 @@ const Experiences = () => {
             />
             <Experience
               title="NimeXx"
-              sentences={['Anime Streaming Mobile Application', 'Flutter, Dart, Firebase · 2025']}
+              sentences={['Anime Streaming Mobile Application', 'Flutter, Dart, Firebase Ã‚Â· 2025']}
               link="https://apkpure.com/id/nimexx/com.rennv.nimexxv2"
               className="mt-5"
               techStack={[
@@ -164,7 +164,7 @@ const Experiences = () => {
             />
             <Experience
               title="Dapoer Sari Pohaci"
-              sentences={['Digitalisasi UMKM Tradisional Serang, Sumedang', 'KKN Pengabdian Masyarakat · Tailwind CSS, JS, Firebase · 2026']}
+              sentences={['Digitalisasi UMKM Tradisional Serang, Sumedang', 'KKN Pengabdian Masyarakat Ã‚Â· Tailwind CSS, JS, Firebase Ã‚Â· 2026']}
               link="https://dapoer-saripohaci.web.app/"
               className="mt-5"
               techStack={[
@@ -181,8 +181,8 @@ const Experiences = () => {
             <Experience
               title="Universitas Sebelas April"
               sentences={[
-                lang === 'id' ? 'Informatika · Sarjana Komputer (S.Kom.) · IPK 3.52' : 'Informatics · Bachelor of Computer Science (S.Kom.) · GPA 3.52',
-                lang === 'id' ? 'Fresh Graduate · Kab. Sumedang, Provinsi Jawa Barat' : 'Fresh Graduate · Sumedang Regency, West Java, Indonesia',
+                lang === 'id' ? 'Informatika Ã‚Â· Sarjana Komputer (S.Kom.) Ã‚Â· IPK 3.52' : 'Informatics Ã‚Â· Bachelor of Computer Science (S.Kom.) Ã‚Â· GPA 3.52',
+                lang === 'id' ? 'Fresh Graduate Ã‚Â· Kab. Sumedang, Provinsi Jawa Barat' : 'Fresh Graduate Ã‚Â· Sumedang Regency, West Java, Indonesia',
                 '2022 - 2026'
               ]}
               link="https://unsap.ac.id/"
@@ -190,7 +190,7 @@ const Experiences = () => {
             <Experience
               title="SMAN 2 Cimalaka"
               sentences={[
-                lang === 'id' ? 'Sekolah Menengah Atas (SMA · 3 Tahun)' : 'Senior High School (SMA · 3 Years)',
+                lang === 'id' ? 'Sekolah Menengah Atas (SMA Ã‚Â· 3 Tahun)' : 'Senior High School (SMA Ã‚Â· 3 Years)',
                 lang === 'id' ? 'Kab. Sumedang, Provinsi Jawa Barat' : 'Sumedang Regency, West Java',
                 '2019 - 2022'
               ]}
@@ -200,7 +200,7 @@ const Experiences = () => {
             <Experience
               title="SMP Terpadu El Bustany"
               sentences={[
-                lang === 'id' ? 'Sekolah Menengah Pertama (SMP · 3 Tahun)' : 'Junior High School (SMP · 3 Years)',
+                lang === 'id' ? 'Sekolah Menengah Pertama (SMP Ã‚Â· 3 Tahun)' : 'Junior High School (SMP Ã‚Â· 3 Years)',
                 lang === 'id' ? 'Kec. Bukit, Kab. Bener Meriah, Provinsi Aceh' : 'Bukit, Bener Meriah Regency, Aceh',
                 '2016 - 2019'
               ]}
@@ -210,7 +210,7 @@ const Experiences = () => {
             <Experience
               title="SD Negeri Mutiara"
               sentences={[
-                lang === 'id' ? 'Sekolah Dasar (SD · 6 Tahun)' : 'Elementary School (SD · 6 Years)',
+                lang === 'id' ? 'Sekolah Dasar (SD Ã‚Â· 6 Tahun)' : 'Elementary School (SD Ã‚Â· 6 Years)',
                 lang === 'id' ? 'Kec. Bandar, Kab. Bener Meriah, Provinsi Aceh' : 'Bandar, Bener Meriah Regency, Aceh',
                 '2010 - 2016'
               ]}
@@ -228,7 +228,7 @@ const Experiences = () => {
                 lang === 'id'
                   ? 'Pendekatan Partial Least Squares Structural Equation Modeling (PLS-SEM)'
                   : 'Partial Least Squares Structural Equation Modeling (PLS-SEM) Approach',
-                'ResearchGate · DOI: 10.13140/RG.2.2.28607.68009 · Juli 2025'
+                'ResearchGate Ã‚Â· DOI: 10.13140/RG.2.2.28607.68009 Ã‚Â· Juli 2025'
               ]}
               link="https://www.researchgate.net/publication/393644925_Pengaruh_Kesadaran_dan_Persepsi_terhadap_Keamanan_Informasi_terhadap_Pengalaman_Menghadapi_Ancaman_Siber_Pendekatan_PLS-SEM"
               techStack={[
@@ -240,127 +240,29 @@ const Experiences = () => {
         <div className="CHILD-STAGGER" id="selected-certificate">
           <TitleSummaries text={t('summary_selected_certificate')} observeId="selected-certificate" />
           <ul className="list-disc marker:text-white">
-            <Experience
-              title="IBM SkillsBuild"
-              badge={lang === 'id' ? 'Sertifikat Terverifikasi' : 'Verified Certificate'}
-              sentences={[
-                lang === 'id'
-                  ? 'Web Development Fundamentals · Kredensial Resmi Credly'
-                  : 'Web Development Fundamentals · Official Credly Credential',
-                'IBM SkillsBuild · Nov 2026',
-                lang === 'id'
-                  ? '👉 Klik di sini untuk membuka & melihat sertifikat'
-                  : '👉 Click here to view & open certificate'
-              ]}
-              onClick={() => handleOpenCertModal('ibm-skillsbuild-web-dev')}
-              techStack={[
-                { name: 'IBM SkillsBuild', icon: SiIbm },
-                { name: 'Web Development' },
-                { name: 'HTML5 & CSS3' },
-                { name: 'JavaScript' }
-              ]}
+            <Experience title="Programming Fundamentals — Simplilearn" badge={lang === 'id' ? 'Aset perlu disiapkan' : 'Asset needed'} sentences={[lang === 'id' ? 'Sertifikat Programming Fundamentals dari Simplilearn' : 'Programming Fundamentals certificate from Simplilearn', lang === 'id' ? 'Tanggal belum tersedia' : 'Date not available', lang === 'id' ? 'Aset sertifikat belum tersedia' : 'Certificate asset not available']} onClick={() => handleOpenCertModal('programming-fundamentals')}
+              techStack={[{ name: 'Programming Fundamentals' }, { name: 'Simplilearn' }]}
             />
-            <Experience
-              title="ASEAN Foundation"
-              badge={lang === 'id' ? '7 Sertifikat Resmi' : '7 Verified Credentials'}
-              sentences={[
-                lang === 'id'
-                  ? 'Cybersecurity Skilling, AI Career Readiness & Literasi Digital'
-                  : 'Cybersecurity Skilling, AI Career Readiness & Digital Literacy',
-                'ASEAN Foundation · Google.org · Microsoft · Infoxchange · LinkedIn · Okt 2026',
-                lang === 'id'
-                  ? '👉 Klik di sini untuk membuka & melihat seluruh 7 sertifikat'
-                  : '👉 Click here to view & open all 7 full certificates'
-              ]}
-              onClick={() => handleOpenCertModal('ai-career-readiness')}
+            <Experience title="TOEFL — Royal English" badge={lang === 'id' ? 'Aset perlu disiapkan' : 'Asset needed'} sentences={[lang === 'id' ? 'Sertifikat TOEFL dari Royal English' : 'TOEFL certificate from Royal English', lang === 'id' ? 'Tanggal belum tersedia' : 'Date not available', lang === 'id' ? 'Aset sertifikat belum tersedia' : 'Certificate asset not available']} onClick={() => handleOpenCertModal('toefl-royal-english')}
               className="mt-5"
-              techStack={[
-                { name: 'ASEAN Foundation' },
-                { name: 'Cybersecurity' },
-                { name: 'AI Readiness' },
-                { name: 'Google.org', icon: SiGoogle },
-                { name: 'Microsoft', icon: SiMicrosoft },
-                { name: 'LinkedIn', icon: SiLinkedin }
-              ]}
-            />
-            <Experience
-              title="Vibe Coding Study Jam (#JuaraVibeCoding)"
-              badge={lang === 'id' ? 'Sertifikat Terverifikasi' : 'Verified Certificate'}
-              sentences={[
-                lang === 'id'
-                  ? 'Certificate of Completion · Code Less, Build More'
-                  : 'Certificate of Completion · Code Less, Build More',
-                'Google Developer Groups · Mei 2026 · Credential ID: JVC2605-ABH7-5MXU',
-                lang === 'id'
-                  ? '👉 Klik di sini untuk membuka & melihat sertifikat'
-                  : '👉 Click here to view & open certificate'
-              ]}
-              onClick={() => handleOpenCertModal('vibe-coding-study-jam')}
-              className="mt-5"
-              techStack={[
-                { name: 'Google Developers', icon: SiGoogle },
-                { name: 'Vibe Coding' },
-                { name: 'AI Workflows' }
-              ]}
-            />
-            <Experience
-              title="Google Cloud Computing Foundations & Skill Badges"
-              badge="Gold League (8 Badges)"
-              sentences={[
-                lang === 'id'
-                  ? 'Infrastruktur, Networking, Data, ML & AI, Dasar Cloud · 10.195 Poin'
-                  : 'Infrastructure, Networking, Data, ML & AI, Cloud Basics · 10,195 Pts',
-                'Google Cloud Skills Boost · Juni 2025',
-                lang === 'id'
-                  ? '👉 Klik di sini untuk membuka profil kredensial'
-                  : '👉 Click here to view credential profile'
-              ]}
-              onClick={() => handleOpenCertModal('google-cloud-foundations')}
-              className="mt-5"
-              techStack={[
-                { name: 'Google Cloud', icon: SiGoogle },
-                { name: 'Cloud Computing' },
-                { name: 'Networking' }
-              ]}
-            />
-            <Experience
-              title="Seminar Literasi Digital Mahasiswa"
-              badge={lang === 'id' ? 'Sertifikat Resmi' : 'Official Certificate'}
-              sentences={[
-                lang === 'id'
-                  ? 'Direktorat Pemberdayaan Informatika, Kemenkominfo RI'
-                  : 'Ministry of Communication and Informatics (Kominfo)',
-                'Sektor Pendidikan Tinggi · Februari 2024 · No: 27737076/23-30519/LITDIG/2024',
-                lang === 'id'
-                  ? '👉 Klik di sini untuk membuka sertifikat resmi'
-                  : '👉 Click here to view official certificate'
-              ]}
-              onClick={() => handleOpenCertModal('literasi-digital-kominfo')}
-              className="mt-5"
-              techStack={[
-                { name: 'Kemenkominfo RI' },
-                { name: 'Literasi Digital' }
-              ]}
+              techStack={[{ name: 'TOEFL' }, { name: 'Royal English' }]}
             />
           </ul>
         </div>
       </div>
-
       <div className="CHILD-STAGGER mt-24" id="tech">
         <TitleSummaries text={t('summary_tech')} observeId="tech" />
         <p className="font-poppins text-base text-secondary lg:text-2xl">
-          Flutter · Dart · Laravel · PHP · JavaScript · HTML5 · CSS3 · Tailwind CSS · Firebase · Cloud Firestore · Realtime Database · MySQL · Python · FastAPI · Scikit-learn (SVM, TF-IDF) · REST API · Google Cloud · Git & GitHub · System Analysis
-          <span className="ml-2 font-medium text-yellow-100">· {t('summary_keep_learning')}</span>
+          Flutter Ã‚Â· Dart Ã‚Â· Laravel Ã‚Â· PHP Ã‚Â· JavaScript Ã‚Â· HTML5 Ã‚Â· CSS3 Ã‚Â· Tailwind CSS Ã‚Â· Firebase Ã‚Â· Cloud Firestore Ã‚Â· Realtime Database Ã‚Â· MySQL Ã‚Â· Python Ã‚Â· FastAPI Ã‚Â· Scikit-learn (SVM, TF-IDF) Ã‚Â· REST API Ã‚Â· Google Cloud Ã‚Â· Git & GitHub Ã‚Â· System Analysis
+          <span className="ml-2 font-medium text-yellow-100">Ã‚Â· {t('summary_keep_learning')}</span>
         </p>
       </div>
       <div className="CHILD-STAGGER mt-24" id="contact">
         <TitleSummaries text={t('summary_contact')} observeId="contact" />
         <ul className="list-disc marker:text-white">
-          <Experience title="Github" sentences={['@Renohidayat']} link="https://github.com/Renohidayat" />
-          <Experience title="LinkedIn" sentences={['M. Reno Hidayat']} link="https://www.linkedin.com/in/renohidayat" className="mt-5" />
-          <Experience title="Email" sentences={['hidayatreno085@gmail.com']} link="mailto:hidayatreno085@gmail.com" className="mt-5" />
-          <Experience title="Instagram" sentences={['@renohidayt']} link="https://www.instagram.com/renohidayt/" className="mt-5" />
-          <Experience title="Location" sentences={['Sumedang, Jawa Barat, Indonesia']} link="https://maps.google.com/?q=Sumedang,+Jawa+Barat,+Indonesia" className="mt-5" />
+          <Experience title="GitHub" sentences={['Placeholder — URL belum tersedia']} className="mt-5" />
+          <Experience title="LinkedIn" sentences={['Placeholder — URL belum tersedia']} className="mt-5" />
+          <Experience title="Email" sentences={['Placeholder — alamat belum tersedia']} className="mt-5" />
         </ul>
       </div>
 

@@ -14,27 +14,31 @@ import {
   SiMysql,
   SiPhp,
   SiPython,
+  SiReact,
   SiTailwindcss
 } from 'react-icons/si'
 
 type Tech = { label: string; Icon: IconType }
 
 const rowOne: Tech[] = [
-  { label: 'Flutter', Icon: SiFlutter },
-  { label: 'Dart', Icon: SiDart },
-  { label: 'Laravel', Icon: SiLaravel },
-  { label: 'PHP', Icon: SiPhp },
   { label: 'JavaScript', Icon: SiJavascript },
-  { label: 'HTML5', Icon: SiHtml5 },
-  { label: 'TailwindCSS', Icon: SiTailwindcss }
+  { label: 'TypeScript', Icon: SiJavascript },
+  { label: 'Python', Icon: SiPython },
+  { label: 'PHP', Icon: SiPhp },
+  { label: 'React.js', Icon: SiReact },
+  { label: 'Next.js', Icon: SiReact },
+  { label: 'HTML', Icon: SiHtml5 },
+  { label: 'CSS', Icon: SiTailwindcss }
 ]
 
 const rowTwo: Tech[] = [
+  { label: 'Node.js', Icon: SiJavascript },
+  { label: 'Laravel', Icon: SiLaravel },
   { label: 'Firebase', Icon: SiFirebase },
-  { label: 'MySQL', Icon: SiMysql },
-  { label: 'Python', Icon: SiPython },
-  { label: 'Google Cloud', Icon: SiGooglecloud },
-  { label: 'Git', Icon: SiGit }
+  { label: 'Git', Icon: SiGit },
+  { label: 'SQL', Icon: SiMysql },
+  { label: 'Google Sheets API', Icon: SiGooglecloud },
+  { label: 'Business Process Automation', Icon: SiPython }
 ]
 
 const Pill = ({ label, Icon }: Tech) => (

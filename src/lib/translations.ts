@@ -9,7 +9,7 @@ const translations = {
   menu_close: { en: 'CLOSE', id: 'TUTUP' },
   menu_take_a_look: { en: 'take a look!', id: 'lihat yuk!' },
 
-  footer_made_with: { en: 'Made with ❤️ by M. Reno Hidayat', id: 'Made with ❤️ by M. Reno Hidayat' },
+  footer_made_with: { en: "Made with ❤️ by IrfakMaulana", id: 'Dibuat dengan ❤️ oleh IrfakMaulana' },
   footer_all_rights_reserved: { en: 'All rights reserved.', id: 'All rights reserved.' },
   footer_title_home: { en: "What's next?", id: 'Selanjutnya apa?' },
   footer_title_about: { en: 'Still curious?', id: 'Masih penasaran?' },
@@ -20,7 +20,10 @@ const translations = {
   home_satisfaction: { en: 'Satisfaction', id: 'Kepuasan' },
   home_scroll: { en: 'scroll', id: 'gulir' },
   home_down: { en: 'down', id: 'ke bawah' },
-  home_creative_dev_lead: { en: 'Full Stack Engineer Based In', id: 'Full Stack Engineer Berbasis Di' },
+  home_creative_dev_lead: {
+    en: "Hello, I'm Muhammad Irfa' Maulana, a Software Engineer & IT Automation Developer",
+    id: "Halo, saya Muhammad Irfa' Maulana, Software Engineer & IT Automation Developer"
+  },
   home_lets_introduce: { en: 'Let Me Introduce', id: 'Izinkan Saya Memperkenalkan' },
   home_my_self: { en: 'My self', id: 'Diri Saya' },
   home_as_developer: { en: 'As Developer.', id: 'Sebagai Developer.' },
@@ -46,7 +49,7 @@ const translations = {
     en: 'A few projects I designed, built, and shipped end-to-end.',
     id: 'Beberapa proyek yang saya rancang, bangun, dan luncurkan dari awal sampai akhir.'
   },
-  home_selected_work_more: { en: '6+ projects completed', id: '6+ proyek telah selesai' },
+  home_selected_work_more: { en: 'View all projects', id: 'Lihat semua proyek' },
 
   home_tech_stack_title: { en: 'Tech I Work With', id: 'Teknologi Yang Saya Pakai' },
 
@@ -62,12 +65,12 @@ const translations = {
   about_story_title: { en: 'How I Work', id: 'Cara Saya Bekerja' },
 
   summary_status_available: { en: 'Open to collaboration & opportunities', id: 'Terbuka untuk kolaborasi & kesempatan' },
-  summary_languages: { en: 'Indonesian (Native) . English (Basic)', id: 'Indonesia (Native) . Inggris (Dasar)' },
+  summary_languages: { en: 'Indonesian and English', id: 'Bahasa Indonesia dan English' },
 
   summary_title: { en: 'Summary', id: 'Ringkasan' },
   summary_role_line: {
-    en: 'Fresh Graduate in Informatics · Full Stack Engineer',
-    id: 'Fresh Graduate Informatika · Full Stack Engineer'
+    en: 'Software Engineer & IT Automation Developer',
+    id: 'Software Engineer & IT Automation Developer'
   },
   summary_download_cv: { en: 'Download CV', id: 'Unduh CV' },
   summary_download_cv_title: { en: 'download cv', id: 'unduh cv' },
