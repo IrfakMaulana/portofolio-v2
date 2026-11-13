@@ -153,15 +153,15 @@ export default function Footer({ title, linkTitle, linkTo, colorMode }: FooterPr
             </div>
             <div className="flex flex-col items-start justify-between md:flex-row md:items-end">
               <div className="mb-10 flex flex-col gap-2 md:hidden">
-                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-end gap-2">
+                <a href="https://id.linkedin.com/in/muhammad-irfa-maulana-430a86276" target="_blank" rel="noreferrer" className="flex items-end gap-2">
                   <GrLinkedin className="mt-1 text-xl" style={{ color: colorMode !== 'light' ? light : dark }} />
                   <span style={{ color: colorMode !== 'light' ? light : dark }} className="font-poppins font-light underline">LinkedIn</span>
                 </a>
-                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-end gap-2">
+                <a href="https://github.com/IrfakMaulana" target="_blank" rel="noreferrer" className="flex items-end gap-2">
                   <GrGithub className="text-xl" style={{ color: colorMode !== 'light' ? light : dark }} />
                   <span style={{ color: colorMode !== 'light' ? light : dark }} className="font-poppins font-light underline">GitHub</span>
                 </a>
-                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-end gap-2">
+                <a href="mailto:irfakmaulana05@gmail.com" className="flex items-end gap-2">
                   <MdEmail className="text-xl" style={{ color: colorMode !== 'light' ? light : dark }} />
                   <span style={{ color: colorMode !== 'light' ? light : dark }} className="font-poppins font-light underline">Email</span>
                 </a>
@@ -172,13 +172,13 @@ export default function Footer({ title, linkTitle, linkTo, colorMode }: FooterPr
                 className="hidden w-fit origin-bottom items-baseline gap-x-10 px-3 pb-2 pt-3 md:flex"
                 tag="div"
               >
-                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-baseline" title="LinkedIn">
+                <a href="https://id.linkedin.com/in/muhammad-irfa-maulana-430a86276" target="_blank" rel="noreferrer" className="flex items-baseline" title="LinkedIn">
                   <GrLinkedin className="mt-1 text-xl" style={{ color: colorMode === 'light' ? light : dark }} />
                 </a>
-                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-baseline" title="GitHub">
+                <a href="https://github.com/IrfakMaulana" target="_blank" rel="noreferrer" className="flex items-baseline" title="GitHub">
                   <GrGithub className="text-xl" style={{ color: colorMode === 'light' ? light : dark }} />
                 </a>
-                <a href="#" onClick={(event) => event.preventDefault()} className="flex items-baseline" title="Email">
+                <a href="mailto:irfakmaulana05@gmail.com" className="flex items-baseline" title="Email">
                   <MdEmail className="text-xl" style={{ color: colorMode === 'light' ? light : dark }} />
                 </a>
               </StaggerSlideElementMenu>
@@ -187,7 +187,7 @@ export default function Footer({ title, linkTitle, linkTo, colorMode }: FooterPr
                 style={{ color: colorMode !== 'light' ? light : dark }}
               >
                 <p className="m-0 opacity-80">
-                  © {new Date().getFullYear()} Muhammad Irfa' Maulana. All rights reserved.
+                  {new Date().getFullYear()} Muhammad Irfa' Maulana. All rights reserved.
                 </p>
               </div>
             </div>

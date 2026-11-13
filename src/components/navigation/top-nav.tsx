@@ -1,5 +1,6 @@
 import Cursor from 'components/common/cursor'
 import ClickToOpen from 'components/cursor-hover/click-to-open'
+import IrfakMaulanaHover from 'components/cursor-hover/renohidayat'
 import WithCursorElement from 'components/common/with-cursor-element'
 import EnglishHover from 'components/cursor-hover/english'
 import IndonesiaHover from 'components/cursor-hover/indonesia'
@@ -30,9 +31,9 @@ const TopNav = () => {
 
   const nameCursor = {
     in: {
-      key: 'irfakmaulana',
-      type: 'hover',
-      element: <span className="font-spartan text-lg">IrfakMaulana</span>
+      key: IrfakMaulanaHover.key,
+      type: IrfakMaulanaHover.type,
+      element: <IrfakMaulanaHover />
     }
   }
 

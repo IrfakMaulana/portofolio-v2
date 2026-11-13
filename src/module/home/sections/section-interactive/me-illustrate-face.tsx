@@ -7,8 +7,8 @@ type Props = HTMLMotionProps<'div'> & {
 export default function MeIllustrateFace({ onClickLeftEar, ...props }: Props) {
   return (
     <motion.div {...props}>
-      <svg width="800" height="714" viewBox="0 0 800 714" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-auto w-full">
-        <image href="/img/personal/full-badan.jpeg" width="800" height="714" preserveAspectRatio="xMidYMid slice" />
+      <svg width="375" height="666" viewBox="0 0 375 666" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-auto w-full">
+        <image href="/img/personal/remove.png" width="375" height="666" preserveAspectRatio="xMidYMid meet" />
         {/* Interactive clickable ear area to reset Scribby drawing */}
         <circle
           cx="670"

@@ -6,7 +6,7 @@ export default function SectionText() {
     <div className="CONTAINER flex min-h-screen flex-col items-start justify-center">
       <p className="MENU-CHANGE-Y-200 font-poppins text-2xl text-white">{t('about_dont_be_shy')}</p>
       <a
-        href="mailto:hidayatreno085@gmail.com"
+        href="mailto:irfakmaulana05@gmail.com"
         aria-label="Contact me"
         className="transition-opacity hover:opacity-80"
       >

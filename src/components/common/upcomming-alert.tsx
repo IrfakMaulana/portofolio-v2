@@ -62,7 +62,7 @@ export default function UpCommingAlert() {
             </button>
           </div>
           <a
-            href="https://github.com/Renohidayat/scriptease_app"
+            href="https://github.com/IrfakMaulana"
             target="_blank"
             rel="noopener noreferrer"
             className="group block rounded-md p-1.5 -mx-1.5 transition-colors hover:bg-gray-50"
@@ -84,7 +84,7 @@ export default function UpCommingAlert() {
             </div>
             <div className="mt-2.5 flex cursor-pointer items-center gap-2 text-xs font-medium text-primary underline transition-colors group-hover:text-yellow-600">
               <GrGithub className="shrink-0 text-sm text-gray-700" />
-              <span className="truncate font-mono">github.com/Renohidayat/scriptease_app</span>
+              <span className="truncate font-mono">github.com/IrfakMaulana</span>
               <LiaExternalLinkAltSolid className="shrink-0 text-sm" />
             </div>
           </a>

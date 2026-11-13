@@ -42,7 +42,7 @@ export default function FloatingContact() {
         >
           <Magnet strength={30}>
             <a
-              href="mailto:hidayatreno085@gmail.com"
+              href="mailto:irfakmaulana05@gmail.com"
               aria-label="Say hi / contact"
               className="group flex h-[60px] w-[60px] items-center justify-center rounded-full bg-yellow-400 text-primary shadow-lg transition-transform hover:scale-105 md:h-[80px] md:w-[80px]"
             >

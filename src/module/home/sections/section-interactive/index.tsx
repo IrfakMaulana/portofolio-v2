@@ -14,7 +14,7 @@ import MeIllustrateTop from 'module/home/sections/section-interactive/me-illustr
 import SectionInteractiveMobile from 'module/mobile/home/section-interactive'
 import { memo, useContext, useEffect, useRef, useState, lazy, Suspense } from 'react'
 import { AiOutlineArrowDown, AiOutlineArrowRight } from 'react-icons/ai'
-import { GrGithub, GrInstagram, GrLinkedin } from 'react-icons/gr'
+import { GrGithub, GrLinkedin } from 'react-icons/gr'
 import { MdEmail } from 'react-icons/md'
 import HandPeace from './hand-peace'
 
@@ -168,7 +168,7 @@ const Default = () => {
             </motion.div>
             <motion.div style={{ scale: scaleScrollIllus, filter: blurScrollIllus }} className="sticky top-[10%]">
               <motion.div ref={illusScope} className="relative flex w-[22vw] min-w-[280px] max-w-[420px] flex-col">
-                <MeIllustrateHair id="hair-illustration" className="relative z-10 mb-[-7%]" />
+                <MeIllustrateHair id="hair-illustration" className="relative z-10" />
                 <div id="face-illustration" className="relative">
                   <MeIllustrateTop className="pointer-events-none absolute left-0 top-0 w-full" />
                   <Suspense>
@@ -232,10 +232,10 @@ const Default = () => {
           <div className="CONTAINER MENU-CHANGE-Y-100 mt-14 flex items-center gap-6">
             <Magnet strength={20}>
               <a
-                href="#" onClick={(event) => event.preventDefault()}
+                href="https://github.com/IrfakMaulana"
                 target="_blank"
                 rel="noreferrer"
-                aria-label="Github"
+                aria-label="GitHub"
                 className="group flex h-[70px] w-[70px] items-center justify-center rounded-full border border-solid border-primary text-primary transition-colors hover:bg-yellow-400"
               >
                 <GrGithub className="text-2xl" />
@@ -243,7 +243,7 @@ const Default = () => {
             </Magnet>
             <Magnet strength={20}>
               <a
-                href="#" onClick={(event) => event.preventDefault()}
+                href="https://id.linkedin.com/in/muhammad-irfa-maulana-430a86276"
                 target="_blank"
                 rel="noreferrer"
                 aria-label="LinkedIn"
@@ -254,18 +254,7 @@ const Default = () => {
             </Magnet>
             <Magnet strength={20}>
               <a
-                href="#" onClick={(event) => event.preventDefault()}
-                target="_blank"
-                rel="noreferrer"
-                aria-label="Instagram"
-                className="group flex h-[70px] w-[70px] items-center justify-center rounded-full border border-solid border-primary text-primary transition-colors hover:bg-yellow-400"
-              >
-                <GrInstagram className="text-2xl" />
-              </a>
-            </Magnet>
-            <Magnet strength={20}>
-              <a
-                href="mailto:hidayatreno085@gmail.com"
+                href="mailto:irfakmaulana05@gmail.com"
                 aria-label="Email"
                 className="group flex h-[70px] w-[70px] items-center justify-center rounded-full border border-solid border-primary text-primary transition-colors hover:bg-yellow-400"
               >

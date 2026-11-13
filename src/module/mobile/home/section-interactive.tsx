@@ -8,7 +8,7 @@ import HandPeace from 'module/home/sections/section-interactive/hand-peace'
 import HandRock from 'module/home/sections/section-interactive/hand-rock'
 import React from 'react'
 import { AiOutlineArrowDown } from 'react-icons/ai'
-import { GrGithub, GrInstagram, GrLinkedin } from 'react-icons/gr'
+import { GrGithub, GrLinkedin } from 'react-icons/gr'
 import { MdEmail } from 'react-icons/md'
 
 export default function SectionInteractiveMobile() {
@@ -104,7 +104,7 @@ export default function SectionInteractiveMobile() {
         <div className="MENU-CHANGE-Y-100 mt-10 flex items-center gap-4">
           <Magnet strength={20}>
             <a
-              href="https://github.com/Renohidayat"
+              href="https://github.com/IrfakMaulana"
               target="_blank"
               rel="noreferrer"
               aria-label="Github"
@@ -115,7 +115,7 @@ export default function SectionInteractiveMobile() {
           </Magnet>
           <Magnet strength={20}>
             <a
-              href="https://www.linkedin.com/in/renohidayat"
+              href="https://id.linkedin.com/in/muhammad-irfa-maulana-430a86276"
               target="_blank"
               rel="noreferrer"
               aria-label="LinkedIn"
@@ -126,18 +126,7 @@ export default function SectionInteractiveMobile() {
           </Magnet>
           <Magnet strength={20}>
             <a
-              href="https://www.instagram.com/renohidayt/"
-              target="_blank"
-              rel="noreferrer"
-              aria-label="Instagram"
-              className="flex h-[55px] w-[55px] items-center justify-center rounded-full border border-solid border-primary text-primary"
-            >
-              <GrInstagram className="text-xl" />
-            </a>
-          </Magnet>
-          <Magnet strength={20}>
-            <a
-              href="mailto:hidayatreno085@gmail.com"
+              href="mailto:irfakmaulana05@gmail.com"
               aria-label="Email"
               className="flex h-[55px] w-[55px] items-center justify-center rounded-full border border-solid border-primary text-primary"
             >

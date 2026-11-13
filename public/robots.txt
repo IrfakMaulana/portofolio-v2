@@ -1,1 +1,4 @@
-User-agent: *`r`nAllow: /`r`n`r`n# Sitemap is intentionally omitted until the Firebase domain is finalized.`r`n
+User-agent: *
+Allow: /
+
+# Sitemap is intentionally omitted until the Firebase domain is finalized.

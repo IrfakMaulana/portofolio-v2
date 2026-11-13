@@ -78,10 +78,10 @@ React, Next.js, Node.js, Laravel, PHP, JavaScript, TypeScript, Python, SQL, Fire
 ### Langkah Instalasi
 ```bash
 # Clone repositori
-git clone https://github.com/Renohidayat/portofolio-reno.git
+git clone https://github.com/IrfakMaulana/portofolio-v2.git
 
 # Masuk ke direktori
-cd portofolio-reno
+cd portofolio-v2
 
 # Install dependensi
 npm install
@@ -90,7 +90,7 @@ npm install
 npm run dev
 ```
 
-Buka [http://localhost:5173](http://localhost:5173) di browser Anda.
+Buka [http://localhost:9001](http://localhost:9001) di browser Anda.
 
 ### Build untuk Produksi
 ```bash
@@ -101,4 +101,4 @@ npm run build
 
 ## 📄 Lisensi & Hak Cipta
 
-© 2026 **M. Reno Hidayat**. All Rights Reserved.
+© 2026 **Muhammad Irfa' Maulana**. All Rights Reserved.

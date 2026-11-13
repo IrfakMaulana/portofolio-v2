@@ -27,6 +27,7 @@ export type ExperienceRowProps = {
   fullViewTitle?: string
   techStack?: TechItem[]
   onRowClick?: () => void
+  disableHoverPreview?: boolean
   isCertificatesBundle?: boolean
   certificatesCount?: number
   certificateBadge?: string | React.ReactNode
@@ -90,6 +91,7 @@ const ExperienceRow = ({
   fullViewTitle,
   techStack,
   onRowClick,
+  disableHoverPreview,
   isCertificatesBundle,
   certificatesCount,
   certificateBadge
@@ -406,10 +408,12 @@ const ExperienceRow = ({
     ]
   )
 
-  if (state?.isSmallDevice) return content
+  if (state?.isSmallDevice || disableHoverPreview) return content
+
+  const previewImage = Array.isArray(fullViewImage) ? fullViewImage[0] : fullViewImage || image
 
   return (
-    <HoverEffect color={color} image={image} hoverElement={hoverElement} text1={text1}>
+    <HoverEffect color={color} image={previewImage} hoverElement={hoverElement} text1={text1}>
       {content}
     </HoverEffect>
   )
